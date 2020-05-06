@@ -513,7 +513,8 @@ a.standard-btn.secondcolor-btn {
     color: white;
   }
 }
-body{
-  display:none !important;
-}
+.singlepost-wrap .entry-thumbnail {
+  max-height: 20vh;
+  object-fit: cover;
+} 
 /*# sourceMappingURL=style.css.map */
