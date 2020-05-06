@@ -1,7 +1,7 @@
 <?php
 /* enqueue styles og parent theme */
 function parent_enqueue_styles() {
-    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' , time());
+    wp_enqueue_style( 'parent-style', get_template_directory_uri() . '/style.css' );
     
 	// Dequeue Style from pirate-crew, this theme has its own style for it
     wp_dequeue_style('pirate-crew');
