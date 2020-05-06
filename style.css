@@ -513,5 +513,7 @@ a.standard-btn.secondcolor-btn {
     color: white;
   }
 }
-
+body{
+  display:none !important;
+}
 /*# sourceMappingURL=style.css.map */
