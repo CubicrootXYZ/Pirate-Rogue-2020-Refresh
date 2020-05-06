@@ -513,7 +513,7 @@ a.standard-btn.secondcolor-btn {
     color: white;
   }
 }
-.singlepost-wrap .entry-thumbnail {
+.singlepost-wrap .entry-thumbnail img {
   max-height: 20vh;
   object-fit: cover;
   object-position: center center;
