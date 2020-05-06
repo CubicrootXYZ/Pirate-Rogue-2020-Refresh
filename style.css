@@ -513,9 +513,15 @@ a.standard-btn.secondcolor-btn {
     color: white;
   }
 }
+
+/* 2020 Update */
 .singlepost-wrap .entry-thumbnail img {
-  max-height: 20vh;
+  max-height: 40vh;
   object-fit: cover;
   object-position: center center;
 } 
+
+.singlepost-wrap .entry-title {
+  font-size: 2.5vw !important;
+}
 /*# sourceMappingURL=style.css.map */
