@@ -582,7 +582,7 @@ a.standard-btn.secondcolor-btn {
 }
 
 /* embeded posts */
-.wp-embed .wp-embed-footer {
+.wp-embed-footer {
   display:none !important;
 }
 .wp-embed .wp-embed-featured-image img {
