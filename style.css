@@ -549,6 +549,7 @@ a.standard-btn.secondcolor-btn {
 #events_wrap .summary {
   font-size: 160%;
   color: #663399;
+  margin-top:0.4rem !important; 
 }
 #events_wrap .description {
   margin-top: 0.7rem;
@@ -559,8 +560,12 @@ a.standard-btn.secondcolor-btn {
 }
 #events_wrap .categories a {
   background: #e3e8e8 !important;
-  padding: 0.2rem;
+  padding: 0.2rem !important;
   border-radius: 4px;
 }
-
+#events_wrap .group {
+  font-size: 130%;
+  border-bottom: 2px solid black;
+  padding-top:2rem;
+}
 /*# sourceMappingURL=style.css.map */
