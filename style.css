@@ -532,7 +532,7 @@ a.standard-btn.secondcolor-btn {
   margin:auto !important;
 }
 .singlepost-wrap .entry-footer, .singlepost-wrap .comments-area {
-  margin-top: 4rem;
+  margin-top: 4rem !important;
 }
 .singlepost-wrap .entry-footer .entry-tags a {
   padding:0.2rem;
