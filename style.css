@@ -528,10 +528,10 @@ a.standard-btn.secondcolor-btn {
   margin:auto !important;
   margin-top: -8px;
 }
-.singlepost-wrap .contentwrap, .singlepost-wrap .comments{
+.singlepost-wrap .contentwrap, .singlepost-wrap .comments-area, .singlepost-wrap .entry-footer{
   margin:auto !important;
 }
-.singlepost-wrap .entry-footer, .singlepost-wrap .comments {
+.singlepost-wrap .entry-footer, .singlepost-wrap .comments-area {
   margin-top: 4rem;
 }
 .singlepost-wrap .entry-footer .entry-tags a {
