@@ -528,8 +528,8 @@ a.standard-btn.secondcolor-btn {
   margin:auto !important;
   margin-top: -8px;
 }
-.singlepost-wrap .contentwrap {
-  margin:auto;
+.singlepost-wrap .contentwrap{
+  margin:auto !important;
 }
 .singlepost-wrap .entry-footer {
   margin-top: 4rem;
