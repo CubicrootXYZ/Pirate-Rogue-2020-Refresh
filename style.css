@@ -539,4 +539,11 @@ a.standard-btn.secondcolor-btn {
   background: #e3e8e8;
   border-radius: 4px;
 }
+.page-template-default .entry-title {
+  font-size: 2vw !important;
+}
+.box {
+  padding-top: 0;
+  padding-bottom: 0;
+}
 /*# sourceMappingURL=style.css.map */
