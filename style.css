@@ -522,6 +522,21 @@ a.standard-btn.secondcolor-btn {
 } 
 
 .singlepost-wrap .entry-title {
-  font-size: 2.5vw !important;
+  font-size: 2vw !important;
+}
+.singlepost-wrap .entry-content {
+  margin:auto !important;
+  margin-top: -8px;
+}
+.singlepost-wrap .contentwrap {
+  margin:auto;
+}
+.singlepost-wrap .entry-footer {
+  margin-top: 4rem;
+}
+.singlepost-wrap .entry-footer .entry-tags a {
+  padding:0.2rem;
+  background: #e3e8e8;
+  border-radius: 4px;
 }
 /*# sourceMappingURL=style.css.map */
