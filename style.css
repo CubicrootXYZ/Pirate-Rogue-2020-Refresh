@@ -567,8 +567,11 @@ a.standard-btn.secondcolor-btn {
   text-transform: uppercase;
 }
 #events_wrap .group {
-  font-size: 130%;
+  font-size: 120%;
   border-bottom: 2px solid black;
   padding-top:2rem;
+}
+#events_wrap .addevent {
+  display:none;
 }
 /*# sourceMappingURL=style.css.map */
