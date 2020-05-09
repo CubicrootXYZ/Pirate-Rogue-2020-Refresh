@@ -585,7 +585,7 @@ a.standard-btn.secondcolor-btn {
 .wp-embed .wp-embed-footer {
   display:none !important;
 }
-.wp-embed .wp-embed-featured-image {
+.wp-embed .wp-embed-featured-image img {
   max-height: 5rem;
   object-fit: cover;
   object-position: center center;
