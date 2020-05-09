@@ -562,6 +562,9 @@ a.standard-btn.secondcolor-btn {
   background: #e3e8e8 !important;
   padding: 0.2rem !important;
   border-radius: 4px;
+  font-weight: normal;
+  color: #003399;
+  text-transform: uppercase;
 }
 #events_wrap .group {
   font-size: 130%;
