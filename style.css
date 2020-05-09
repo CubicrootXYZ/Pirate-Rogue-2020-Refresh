@@ -515,12 +515,12 @@ a.standard-btn.secondcolor-btn {
 }
 
 /* 2020 Update */
+/* Posts */
 .singlepost-wrap .entry-thumbnail img {
   max-height: 40vh;
   object-fit: cover;
   object-position: center center;
 } 
-
 .singlepost-wrap .entry-title {
   font-size: 2vw !important;
 }
@@ -539,13 +539,19 @@ a.standard-btn.secondcolor-btn {
   background: #e3e8e8;
   border-radius: 4px;
 }
+
+/* PAges */
 .page-template-default .entry-title {
   font-size: 2vw !important;
 }
+
+/* Boxes */
 .box {
   padding-top: 0;
   padding-bottom: 0;
 }
+
+/* Calendar */
 #events_wrap .summary {
   font-size: 160%;
   color: #663399;
@@ -573,5 +579,15 @@ a.standard-btn.secondcolor-btn {
 }
 #events_wrap .addevent {
   display:none;
+}
+
+/* embeded posts */
+.wp-embed .wp-embed-footer {
+  display:none;
+}
+.wp.embed .wp-embed-featured-image {
+  max-height: 5rem;
+  object-fit: cover;
+  object-position: center center;
 }
 /*# sourceMappingURL=style.css.map */
