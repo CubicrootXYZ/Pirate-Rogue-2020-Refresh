@@ -546,19 +546,19 @@ a.standard-btn.secondcolor-btn {
   padding-top: 0;
   padding-bottom: 0;
 }
-.events_wrap .summary {
+#events_wrap .summary {
   font-size: 160%;
   color: #663399;
 }
-.events_wrap .description {
+#events_wrap .description {
   margin-top: 0.7rem;
 }
-.events_wrap .location {
+#events_wrap .location {
   margin-top: 0.7rem;
   margin-bottom: 0.7rem;
 }
-.events_wrap .categories a {
-  background: #e3e8e8;
+#events_wrap .categories a {
+  background: #e3e8e8 !important;
   padding: 0.2rem;
   border-radius: 4px;
 }
