@@ -598,4 +598,10 @@ a.standard-btn.secondcolor-btn {
   object-fit: cover;
   object-position: center center;
 }
+
+/* Footer */
+footer {
+  clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+}
+
 /*# sourceMappingURL=style.css.map */
