@@ -555,7 +555,7 @@ a.standard-btn.secondcolor-btn {
   flex-direction: column;
 }
 .singlepost-wrap .pirate-crew-single {
-  order:1;
+  order:-1;
 }
 .singlepost-wrap #secondary {
   width: unset;
