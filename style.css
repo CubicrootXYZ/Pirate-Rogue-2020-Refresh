@@ -553,14 +553,16 @@ a.standard-btn.secondcolor-btn {
 }
 .singlepost-wrap {
     width: 100%;
+    background: #e3e8e8;
 }
 .singlepost-wrap .entry-content {
   display:flex;
   margin: auto;
   width: 100%;
-  padding: 2rem;
+  padding: 0.5rem;
   flex-direction: column;
   justify-content: center;
+  background: white;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
@@ -570,8 +572,8 @@ a.standard-btn.secondcolor-btn {
 }
 @media screen and (max-width: 110em) {  /* bigger than 1080p at normal screen*/
   .singlepost-wrap .entry-content {
-  margin-left:20%;
-  margin-right: 20%;
+    margin-left:20% !important;
+    margin-right: 20% !important;
   }
 }
 @media screen and (max-width: 50em) {  /* phones*/
