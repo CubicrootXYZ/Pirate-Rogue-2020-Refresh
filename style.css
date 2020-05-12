@@ -530,7 +530,7 @@ a.standard-btn.secondcolor-btn {
   font-size: 2vw !important;
 }
 .singlepost-wrap .contentwrap {
-  max-width: unset;
+  max-width: unset !important;
 }
 .singlepost-wrap .entry-content {
   margin:auto !important;
