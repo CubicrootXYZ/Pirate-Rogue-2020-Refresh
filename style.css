@@ -522,7 +522,7 @@ a.standard-btn.secondcolor-btn {
   object-position: center center;
 } 
 .singlepost-wrap .entry-thumbnail {
-  clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%) !important;
+  clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 88%) !important;
   padding: 0;
   margin-bottom: 1rem;
 }
@@ -546,6 +546,19 @@ a.standard-btn.secondcolor-btn {
   padding:0.2rem;
   background: #e3e8e8;
   border-radius: 4px;
+}
+.singlepost-wrap {
+    width: 100%;
+}
+.singlepost-wrap .entry-content {
+  display:flex;
+  flex-direction: column;
+}
+.singlepost-wrap .pirate-crew-single {
+  order:1;
+}
+.singlepost-wrap #secondary {
+  width: unset;
 }
 
 /* PAges */
@@ -600,8 +613,9 @@ a.standard-btn.secondcolor-btn {
 }
 
 /* Footer */
-footer {
+.site-footer {
   clip-path: polygon(0 30%, 100% 0%, 100% 100%, 0% 100%);
+  padding-top:4rem;
 }
 
 /*# sourceMappingURL=style.css.map */
