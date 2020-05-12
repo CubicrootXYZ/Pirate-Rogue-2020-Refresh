@@ -563,6 +563,8 @@ a.standard-btn.secondcolor-btn {
   flex-direction: column;
   justify-content: center;
   background: white;
+  margin-left:40% !important;
+  margin-right: 40% !important;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
