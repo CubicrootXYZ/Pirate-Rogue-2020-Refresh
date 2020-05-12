@@ -557,7 +557,8 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap .entry-content {
   display:flex;
   margin: auto;
-  width: 61%;
+  width: 100%;
+  padding: 2rem;
   flex-direction: column;
   justify-content: center;
 }
@@ -567,14 +568,15 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap #secondary {
   width: unset;
 }
-@media screen and (min-width: 110em) {  /* bigger than 1080p at normal screen*/
+@media screen and (max-width: 110em) {  /* bigger than 1080p at normal screen*/
   .singlepost-wrap .entry-content {
-  background: black;
+  margin-left:20%;
+  margin-right: 20%;
   }
 }
-@media screen and (min-width: 10em) {  /* phones*/
+@media screen and (max-width: 50em) {  /* phones*/
   .singlepost-wrap .entry-content {
-  background: green;
+    margin:0;
   }
 }
 
