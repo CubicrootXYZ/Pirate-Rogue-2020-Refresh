@@ -695,6 +695,7 @@ a.standard-btn.secondcolor-btn {
 /* Piraten Crew */
 .picrew-grid-card img {
   max-width: 12% !important;
+  border-radius: 100%;
 }
 .picrew-grid.list-style > .picrew-grid-card {
   padding: 0 0 0.5rem 0;
