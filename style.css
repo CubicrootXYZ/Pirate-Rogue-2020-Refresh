@@ -692,4 +692,16 @@ a.standard-btn.secondcolor-btn {
   margin-top: 5rem;
 }
 
+/* Piraten Crew */
+.picrew-grid-card img {
+  max-width: 12%;
+}
+.picrew-grid.list-style > .picrew-grid-card {
+  padding: 0 0 0.2rem 0;
+  margin: 0;
+}
+.picrew-grid-card .picrew-personal-info::before {
+  content: "Personen im Text:";
+}
+
 /*# sourceMappingURL=style.css.map */
