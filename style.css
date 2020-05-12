@@ -574,10 +574,12 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap .entry-footer {
   margin-left:26% !important;
   margin-right: 26% !important;
+  width: unset !important;
 }
 .singlepost-wrap .comments-area {
   margin-left:26% !important;
   margin-right: 26% !important;
+  width: unset !important;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
