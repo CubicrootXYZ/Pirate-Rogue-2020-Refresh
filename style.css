@@ -566,8 +566,8 @@ a.standard-btn.secondcolor-btn {
   margin-right: 28% !important;
 }
 .singlepost-wrap .entry-header {
-  margin-left:28% !important;
-  margin-right: 28% !important;
+  margin-left:20% !important;
+  margin-right: 20% !important;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
@@ -581,8 +581,8 @@ a.standard-btn.secondcolor-btn {
     margin-right: 16% !important;
   }
   .singlepost-wrap .entry-header {
-    margin-left:28% !important;
-    margin-right: 28% !important;
+    margin-left:10% !important;
+    margin-right: 10% !important;
   }
 }
 @media screen and (max-width: 50em) {  /* phones*/
