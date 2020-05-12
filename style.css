@@ -525,6 +525,7 @@ a.standard-btn.secondcolor-btn {
   clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 88%) !important;
   padding: 0;
   margin-bottom: 1rem;
+  width: 100%;
 }
 .singlepost-wrap .entry-title {
   font-size: 2vw !important;
@@ -532,6 +533,8 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap .contentwrap {
   max-width: unset !important;
   margin: auto !important;
+  float: none;
+  width: 100%;
 }
 .singlepost-wrap .entry-content {
   margin:auto !important;
@@ -553,6 +556,8 @@ a.standard-btn.secondcolor-btn {
 }
 .singlepost-wrap .entry-content {
   display:flex;
+  margin: auto;
+  width: 61%;
   flex-direction: column;
   justify-content: center;
 }
