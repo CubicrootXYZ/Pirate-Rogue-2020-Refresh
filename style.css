@@ -521,6 +521,9 @@ a.standard-btn.secondcolor-btn {
   object-fit: cover;
   object-position: center center;
 } 
+.singlepost-wrap .entry-thumbnail {
+  clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%) !important;
+}
 .singlepost-wrap .entry-title {
   font-size: 2vw !important;
 }
