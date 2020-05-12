@@ -520,6 +520,7 @@ a.standard-btn.secondcolor-btn {
   max-height: 40vh;
   object-fit: cover;
   object-position: center center;
+  width: 100%;
 } 
 .singlepost-wrap .entry-thumbnail {
   clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 88%) !important;
@@ -621,8 +622,8 @@ a.standard-btn.secondcolor-btn {
     font-size: 8vw !important;
   }
   .singlepost-wrap .comments-area {
-    margin-left:18% !important;
-    margin-right: 18% !important;
+    margin-left:0 !important;
+    margin-right:0 !important;
   }
   
 }
