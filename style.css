@@ -531,6 +531,7 @@ a.standard-btn.secondcolor-btn {
 }
 .singlepost-wrap .contentwrap {
   max-width: unset !important;
+  margin: auto !important;
 }
 .singlepost-wrap .entry-content {
   margin:auto !important;
