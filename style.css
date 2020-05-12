@@ -553,6 +553,7 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap .entry-content {
   display:flex;
   flex-direction: column;
+  justify-content: center;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
