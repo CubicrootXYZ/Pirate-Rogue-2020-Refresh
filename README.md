@@ -13,5 +13,6 @@ Child-Theme für Pirate-Rogue (https://github.com/Piratenpartei/Pirate-Rogue). R
 * Leerräume bei Boxen minimiert
 * disabled sidebar in posts (it looks aweful)
     * Piraten Crew jetzt bitte im Inhalt platzieren, wenn weiterhin gewünscht (über Customizer)
+    * Ich empfehle die Listen-Ansicht zu benutzen
 
 
