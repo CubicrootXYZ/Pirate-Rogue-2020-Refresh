@@ -562,8 +562,12 @@ a.standard-btn.secondcolor-btn {
   flex-direction: column;
   justify-content: center;
   background: white;
-  margin-left:25% !important;
-  margin-right: 25% !important;
+  margin-left:28%;
+  margin-right: 28% ;
+}
+.singlepost-wrap .entry-header {
+  margin-left:28% ;
+  margin-right: 28% ;
 }
 .singlepost-wrap .pirate-crew-single {
   order:-1;
@@ -573,13 +577,21 @@ a.standard-btn.secondcolor-btn {
 }
 @media screen and (max-width: 110em) {  /* bigger than 1080p at normal screen*/
   .singlepost-wrap .entry-content {
-    margin-left:12% !important;
-    margin-right: 12% !important;
+    margin-left:16% ;
+    margin-right: 16%;
+  }
+  .singlepost-wrap .entry-header {
+    margin-left:28% ;
+    margin-right: 28%;
   }
 }
 @media screen and (max-width: 50em) {  /* phones*/
   .singlepost-wrap .entry-content {
     margin:0;
+  }
+  .singlepost-wrap .entry-header {
+    margin-left:0 ;
+    margin-right:0;
   }
 }
 
