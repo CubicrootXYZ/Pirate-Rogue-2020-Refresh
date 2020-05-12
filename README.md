@@ -9,5 +9,6 @@ Child-Theme für Pirate-Rogue (https://github.com/Piratenpartei/Pirate-Rogue). R
 * Blogbeiträge zentriert und entzerrt
 * Automatisches Image-Scaling bei Blogbeiträgen
 * Leerräume bei Boxen minimiert
+* disabled sidebar in posts (it looks aweful)
 
 

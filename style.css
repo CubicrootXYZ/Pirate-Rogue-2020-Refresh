@@ -601,7 +601,7 @@ a.standard-btn.secondcolor-btn {
   .singlepost-wrap .comments-area {
     margin-left:18% !important;
     margin-right: 18% !important;
-  }s
+  }
 }
 @media screen and (max-width: 50em) {  /* phones*/
   .singlepost-wrap .entry-content {
@@ -626,6 +626,9 @@ a.standard-btn.secondcolor-btn {
     margin-right:0 !important;
   }
   
+}
+.sidebar {
+  display:none;
 }
 
 /* PAges */
