@@ -520,6 +520,7 @@ a.standard-btn.secondcolor-btn {
   object-fit: cover;
   object-position: center center;
   width: 100%;
+  max-height: 40vh;
 } 
 .singlepost-wrap .entry-thumbnail {
   clip-path: polygon(0 0, 100% 12%, 100% 100%, 0 88%) !important;
