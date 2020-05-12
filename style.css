@@ -567,6 +567,11 @@ a.standard-btn.secondcolor-btn {
 .singlepost-wrap #secondary {
   width: unset;
 }
+@media screen and (min-width: 48em) {
+  .singlepost-wrap .entry-content {
+  background: black;
+  }
+}
 
 /* PAges */
 .page-template-default .entry-title {
