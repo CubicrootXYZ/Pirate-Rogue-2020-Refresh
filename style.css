@@ -523,9 +523,14 @@ a.standard-btn.secondcolor-btn {
 } 
 .singlepost-wrap .entry-thumbnail {
   clip-path: polygon(0 12%, 100% 0%, 100% 88%, 0% 100%) !important;
+  padding: 0;
+  margin-bottom: 1rem;
 }
 .singlepost-wrap .entry-title {
   font-size: 2vw !important;
+}
+.singlepost-wrap .contentwrap {
+  max-width: unset;
 }
 .singlepost-wrap .entry-content {
   margin:auto !important;
