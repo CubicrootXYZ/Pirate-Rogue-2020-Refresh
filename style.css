@@ -517,7 +517,6 @@ a.standard-btn.secondcolor-btn {
 /* 2020 Update */
 /* Posts */
 .singlepost-wrap .entry-thumbnail img {
-  max-height: 40vh;
   object-fit: cover;
   object-position: center center;
   width: 100%;
@@ -527,6 +526,7 @@ a.standard-btn.secondcolor-btn {
   padding: 0;
   margin-bottom: 1rem;
   width: 100%;
+  max-height: 40vh;
 }
 .singlepost-wrap .entry-title {
   font-size: 2vw !important;
