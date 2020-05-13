@@ -641,10 +641,11 @@ a.standard-btn.secondcolor-btn {
   line-height: 110%;
 }
 .page-template-default .entry-thumbnail img {
-  max-height: 15vh;
+  max-height: 30vh;
   object-fit: cover;
   object-position: center center;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
+  border-bottom: 4px solid #663399;
 }
 .page-template-default .entry-thumbnail a{
   height: unset !important;
