@@ -638,6 +638,11 @@ a.standard-btn.secondcolor-btn {
 /* PAges */
 .page-template-default .entry-title {
   font-size: 2vw !important;
+  line-height: 110%;
+}
+.page-template-default .entry-thumbnail {
+  max-height: 15vh;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
 }
 
 /* Boxes */
