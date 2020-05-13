@@ -640,7 +640,7 @@ a.standard-btn.secondcolor-btn {
   font-size: 2vw !important;
   line-height: 110%;
 }
-.page-template-default .entry-thumbnail {
+.page-template-default .entry-thumbnail img {
   max-height: 15vh;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
 }
