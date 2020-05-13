@@ -656,14 +656,14 @@ a.standard-btn.secondcolor-btn {
 .page-template-default h1 {
   display: block;
   border-bottom: 6px solid #ff8800;
-  padding: 0;
-  margin-bottom: 0.5rem;
-  font-size: 110%;
 }
 
 .page-template-default h2 {
   display: block;
   border-bottom: 4px solid #ff8800;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  font-size: 110%;
 }
 
 
