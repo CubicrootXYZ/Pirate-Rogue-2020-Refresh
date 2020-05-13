@@ -642,6 +642,8 @@ a.standard-btn.secondcolor-btn {
 }
 .page-template-default .entry-thumbnail img {
   max-height: 15vh;
+  object-fit: cover;
+  object-position: center center;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
 }
 
