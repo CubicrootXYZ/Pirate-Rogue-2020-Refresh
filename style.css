@@ -646,6 +646,10 @@ a.standard-btn.secondcolor-btn {
   object-position: center center;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
 }
+.page-template-default .entry-thumbnail a{
+  height: unset !important;
+  max-height: unset !important;
+}
 
 /* Boxes */
 .box {
