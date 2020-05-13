@@ -653,6 +653,16 @@ a.standard-btn.secondcolor-btn {
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
   background: #663399;
 }
+.page-template-default h1 {
+  display: block;
+  border-bottom: 6px solid #ff8800;
+}
+
+.page-template-default h2 {
+  display: block;
+  border-bottom: 4px solid #ff8800;
+}
+
 
 /* Boxes */
 .box {
