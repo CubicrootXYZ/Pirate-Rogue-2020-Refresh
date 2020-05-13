@@ -650,6 +650,9 @@ a.standard-btn.secondcolor-btn {
 .page-template-default .entry-thumbnail a{
   height: unset !important;
   max-height: unset !important;
+  padding-bottom: 4px;
+  clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
+  background: #663399;
 }
 
 /* Boxes */
