@@ -638,19 +638,18 @@ a.standard-btn.secondcolor-btn {
 /* PAges */
 .page-template-default .entry-title {
   font-size: 2vw !important;
-  line-height: 110%;
+  line-height: 110% !important;
 }
 .page-template-default .entry-thumbnail img {
   max-height: 30vh;
   object-fit: cover;
   object-position: center center;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
-  border-bottom: 4px solid #663399;
 }
 .page-template-default .entry-thumbnail a{
   height: unset !important;
   max-height: unset !important;
-  padding-bottom: 4px;
+  padding-bottom: 8px;
   clip-path: polygon(0 0%, 100% 0%, 100% 100%, 0% 80%);
   background: #663399;
 }
