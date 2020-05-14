@@ -672,7 +672,7 @@ a.standard-btn.secondcolor-btn {
   border-radius: 1rem;
 }
 .page-template-default .entry-content .small-pictures {
-  max-height: 18vh;
+  max-height: 17vh;
   width: 100%;
   object-fit: cover;
   border-radius: 0;
