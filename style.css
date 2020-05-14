@@ -669,13 +669,15 @@ a.standard-btn.secondcolor-btn {
 .page-template-default .entry-content img {
   max-height: 50vh;
   width: auto;
+  border-radius: 1rem;
 }
 .page-template-default .entry-content .small-pictures {
   max-height: 18vh;
   width: 100%;
   object-fit: cover;
+  border-radius: 0;
   object-position: center center;
-  clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0% 80%);
+  border-bottom: 4px solid #663399;
 }
 @media screen and (max-width: 50em) {  /* phones*/
   .page-template-default .entry-title {
