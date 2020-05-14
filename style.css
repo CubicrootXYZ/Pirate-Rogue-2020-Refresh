@@ -668,6 +668,7 @@ a.standard-btn.secondcolor-btn {
 }
 .page-template-default .entry-content img {
   max-height: 50vh;
+  width: auto;
 }
 @media screen and (max-width: 50em) {  /* phones*/
   .page-template-default .entry-title {
