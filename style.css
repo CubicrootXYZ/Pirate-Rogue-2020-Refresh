@@ -671,8 +671,11 @@ a.standard-btn.secondcolor-btn {
   width: auto;
 }
 .page-template-default .entry-content .small-pictures {
-  max-height: 20vh;
+  max-height: 18vh;
   width: 100%;
+  object-fit: cover;
+  object-position: center center;
+  clip-path: polygon(0 0%, 100% 20%, 100% 100%, 0% 80%);
 }
 @media screen and (max-width: 50em) {  /* phones*/
   .page-template-default .entry-title {
