@@ -666,6 +666,12 @@ a.standard-btn.secondcolor-btn {
   margin-bottom: 0.5rem;
   font-size: 190%;
 }
+@media screen and (max-width: 50em) {  /* phones*/
+  .page-template-default .entry-title {
+    font-size: 6.5vw !important;
+  }
+
+}
 
 
 /* Boxes */
