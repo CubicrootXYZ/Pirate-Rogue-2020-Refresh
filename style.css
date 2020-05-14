@@ -670,6 +670,10 @@ a.standard-btn.secondcolor-btn {
   max-height: 50vh;
   width: auto;
 }
+.page-template-default .entry-content .small-pictures {
+  max-height: 20vh;
+  width: 100%;
+}
 @media screen and (max-width: 50em) {  /* phones*/
   .page-template-default .entry-title {
     font-size: 6.5vw !important;
