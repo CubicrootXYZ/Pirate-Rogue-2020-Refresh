@@ -770,7 +770,6 @@ a.standard-btn.secondcolor-btn {
   border-radius: 0;
 }
 .blogroll article .entry-thumbnail {
-  z-index: 2;
   display:block;
   padding: 0 !important;
   margin: 0 !important;
@@ -782,14 +781,10 @@ a.standard-btn.secondcolor-btn {
     filter: none;
     }
 .blogroll article .entry-thumbnail a {
-  height: 100% !important;
   padding: 0 !important;
   margin: 0 !important;
 }
 .blogroll article .entry-thumbnail img {
-  z-index:1;
-  object-fit: cover;
-  object-position: center center;
   border-radius: 0 !important;
   padding: 0;
   margin: 0;
@@ -797,15 +792,6 @@ a.standard-btn.secondcolor-btn {
   max-height: unset !important;
   display:block;
   overflow:hidden;
-}
-.blogroll article .entry-thumbnail::after {
-  z-index:2;
-    content:'';
-    position:absolute;
-    left:0; top:0;
-    width:100%; height:100%;
-    display:inline-block;
-    background: rgba(0,0,0, 0.7);
 }
 
 
@@ -833,16 +819,13 @@ a.standard-btn.secondcolor-btn {
 */
 
 .blogroll article .meta-main-wrap {
-  color:white;
   position: relative;
   z-index: 10;
   display: flex;
   flex-direction: column-reverse;
   padding: 1rem;
-  color: white;
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
-  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
