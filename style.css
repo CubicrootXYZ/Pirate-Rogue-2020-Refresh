@@ -765,7 +765,7 @@ a.standard-btn.secondcolor-btn {
   background: unset;
   border-radius: 0;
 }
-.blogroll article img {
+/*.blogroll article img {
   border: none;
   border-radius: 0 !important;
   clip-path: circle(50% at 0 50%) !important;
@@ -774,9 +774,9 @@ a.standard-btn.secondcolor-btn {
   left: -50%;
   width: 100% !important;
   max-width: unset !important;
-  height: unset;
+  height: inherit;
   max-height: unset;
-}
+}*/
 .blogroll article .meta-main-wrap {
   display: flex;
   flex-direction: column-reverse;
