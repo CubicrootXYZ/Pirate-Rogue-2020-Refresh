@@ -801,8 +801,8 @@ a.standard-btn.secondcolor-btn {
     left:0; top:0;
     width:100%; height:100%;
     display:inline-block;
-    background: rgba(255,255,255, 0.5);
-    background: linear-gradient(0deg, rgba(255,136,0,0.8) 0%, rgba(13,7,0,0.8) 67%, rgba(0,0,0,0.8) 100%, rgba(0,212,255,0.8) 100%);
+    background: rgba(255,255,255, 0.7);
+
 }
 
 
@@ -837,6 +837,9 @@ a.standard-btn.secondcolor-btn {
   flex-direction: column-reverse;
   padding: 0.5rem;
   color: white;
+}
+.blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
+  color: white !important;
 }
 
 /*# sourceMappingURL=style.css.map */
