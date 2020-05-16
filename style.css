@@ -783,7 +783,9 @@ a.standard-btn.secondcolor-btn {
   filter: grayscale(100%);
   
 }
-
+.blogroll article .entry-thumbnail a {
+  height: 100% !important;
+}
 .blogroll article .entry-thumbnail img {
   z-index:1;
   object-fit: cover;
@@ -797,6 +799,8 @@ a.standard-btn.secondcolor-btn {
   filter: grayscale(100%);
   display:block;
   overflow:hidden;
+  min-height: 100%;
+  min-width: 100%;
 }
 .blogroll article .entry-thumbnail::after {
   z-index:2;
