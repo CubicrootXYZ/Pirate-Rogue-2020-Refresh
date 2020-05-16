@@ -767,6 +767,8 @@ a.standard-btn.secondcolor-btn {
   padding:0 !important;
   background: #e3e8e8;
   border-bottom: 4px solid #ff8800;
+  overflow:hidden;
+  margin-bottom:1rem;
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
@@ -801,6 +803,8 @@ a.standard-btn.secondcolor-btn {
   overflow:hidden;
   min-height: 100%;
   min-width: 100%;
+  object-fit: cover;
+  object-position: center center;
 }
 
 
