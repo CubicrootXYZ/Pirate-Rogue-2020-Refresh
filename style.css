@@ -764,6 +764,9 @@ a.standard-btn.secondcolor-btn {
   display: block !important;
   width:100%;
   border-radius: 1rem;
+  padding:0;
+  background: #e3e8e8;
+  border-bottom: 4px solid #ff8800;
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
@@ -829,8 +832,8 @@ a.standard-btn.secondcolor-btn {
   display: flex;
   flex-direction: column-reverse;
   padding: 1rem;
-  width: 67%;
-  float: none;
+  width: 67% !important;
+  float: none !important;
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
 }
