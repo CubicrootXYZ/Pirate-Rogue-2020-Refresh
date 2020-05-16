@@ -795,10 +795,7 @@ a.standard-btn.secondcolor-btn {
   max-height: unset !important;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
-  padding: 1rem;
   display:block;
-  min-width:100%;
-  min-height: 100%;
   overflow:hidden;
 }
 .blogroll article .entry-thumbnail::after {
