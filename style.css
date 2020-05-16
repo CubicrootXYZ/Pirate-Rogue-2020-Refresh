@@ -764,7 +764,7 @@ a.standard-btn.secondcolor-btn {
   border: none;
   border-radius: 0;
   shape-outside: circle(50% at 30%);
-  clip-path: circle(50% at 0%);
+  clip-path: circle(50% at 0 50%);
   object-fit: cover;
   object-position: center center;
   left: -50%;
