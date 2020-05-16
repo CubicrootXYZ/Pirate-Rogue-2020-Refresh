@@ -764,6 +764,8 @@ a.standard-btn.secondcolor-btn {
   clip-path: none;
   background: unset;
   border-radius: 0;
+}
+.blogroll article .entry-thumbnail a {
   height: 100% !important;
 }
 .blogroll article img {
