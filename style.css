@@ -756,7 +756,7 @@ a.standard-btn.secondcolor-btn {
 
 /* Blogroll */
 .blogroll article {
-  display: flex;
+  display: inline;
   flex-direction: row;
   width:50%;
 }
