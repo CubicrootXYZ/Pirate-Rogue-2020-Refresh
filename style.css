@@ -767,13 +767,14 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article img {
   border: none;
-  border-radius: 0;
+  border-radius: 0 !important;
   shape-outside: circle(50% at 30%);
   clip-path: circle(50% at 0 50%) !important;
   object-fit: cover;
   object-position: center center;
   left: -50%;
-  width: unset;
+  width: 100%;
+  max-width: unset;
 }
 .blogroll article .meta-main-wrap {
   display: flex;
