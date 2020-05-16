@@ -767,7 +767,7 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .entry-thumbnail a {
   height: 100% !important;
-  clip-path: circle(50% at 0 50%) !important;
+  clip-path: circle(51% at 0 50%) !important;
   background: #ff8800;
 }
 .blogroll article img {
