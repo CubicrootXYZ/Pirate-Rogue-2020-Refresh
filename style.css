@@ -765,9 +765,9 @@ a.standard-btn.secondcolor-btn {
   width:100%;
   border-radius: 1rem;
   padding:0 !important;
-  border-bottom: 4px solid #663399;
   overflow:hidden;
   margin-bottom:1rem;
+  box-shadow: 10px 10px 5px #663399;
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
