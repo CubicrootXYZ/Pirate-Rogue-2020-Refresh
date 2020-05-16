@@ -780,8 +780,8 @@ a.standard-btn.secondcolor-btn {
   max-width: unset !important;
   height: 100%;
   max-height: unset;
-  padding: 1rem;
-  padding-left: 0;
+  padding: 1rem !important;
+  padding-left: 0 !important;
 }
 .blogroll article .meta-main-wrap {
   display: flex;
