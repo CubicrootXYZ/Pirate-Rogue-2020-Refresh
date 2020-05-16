@@ -760,6 +760,14 @@ a.standard-btn.secondcolor-btn {
   flex-direction: row;
   width:50%;
 }
+.blogroll article img {
+  border: none;
+  border-radius: none;
+  shape-outside: circle(50% at 30%);
+  clip-path: circle(50% at 0%);
+  object-fit: cover;
+  object-position: center center;
+}
 .blogroll article .meta-main-wrap {
   display: flex;
   flex-direction: column-reverse;
