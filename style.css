@@ -774,8 +774,8 @@ a.standard-btn.secondcolor-btn {
   left: 0;
   right: 0;
   bottom: 0;
-  padding: 0;
-  margin: 0;
+  padding: 0 !important;
+  margin: 0 !important;
 }
 .blogroll article .entry-thumbnail img {
   z-index:1;
@@ -790,6 +790,9 @@ a.standard-btn.secondcolor-btn {
   filter: grayscale(100%);
   padding: 1rem;
   display:block;
+  min-width:100%;
+  min-height: 100%;
+  overflow:hidden;
 }
 .blogroll article .entry-thumbnail::after {
   z-index:2;
@@ -799,7 +802,7 @@ a.standard-btn.secondcolor-btn {
     width:100%; height:100%;
     display:inline-block;
     background: rgba(255,255,255, 0.5);
-    background: linear-gradient(0deg, rgba(255,136,0,0.5) 0%, rgba(13,7,0,0.5) 67%, rgba(0,0,0,0.5) 100%, rgba(0,212,255,0.5) 100%);
+    background: linear-gradient(0deg, rgba(255,136,0,0.8) 0%, rgba(13,7,0,0.8) 67%, rgba(0,0,0,0.8) 100%, rgba(0,212,255,0.8) 100%);
 }
 
 
@@ -827,6 +830,7 @@ a.standard-btn.secondcolor-btn {
 */
 
 .blogroll article .meta-main-wrap {
+  color:white;
   position: relative;
   z-index: 10;
   display: flex;
