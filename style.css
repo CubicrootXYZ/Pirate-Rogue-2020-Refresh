@@ -760,8 +760,10 @@ a.standard-btn.secondcolor-btn {
   flex-direction: row;
   width:50%;
 }
-.blogroll article .entry-thumbnail {
+.blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
+  background: unset;
+  border-radius: 0;
 }
 .blogroll article img {
   border: none;
