@@ -792,6 +792,7 @@ a.standard-btn.secondcolor-btn {
 .blogroll article .entry-thumbnail a {
   padding: 0 !important;
   margin: 0 !important;
+  height:100% !important;
 }
 .blogroll article .entry-thumbnail img {
   border-radius: 0 !important;
