@@ -760,5 +760,9 @@ a.standard-btn.secondcolor-btn {
   flex-direction: row;
   width:50%;
 }
+.blogroll article .meta-main-wrap {
+  display: flex;
+  flex-direction: column-reverse;
+}
 
 /*# sourceMappingURL=style.css.map */
