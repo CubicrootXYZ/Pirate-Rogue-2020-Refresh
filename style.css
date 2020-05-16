@@ -760,14 +760,18 @@ a.standard-btn.secondcolor-btn {
   flex-direction: row;
   width:50%;
 }
+.blogroll article .entry-thumbnail {
+  clip-path: none;
+}
 .blogroll article img {
   border: none;
   border-radius: 0;
   shape-outside: circle(50% at 30%);
-  clip-path: circle(50% at 0 50%);
+  clip-path: circle(50% at 0 50%) !important;
   object-fit: cover;
   object-position: center center;
   left: -50%;
+  width: unset;
 }
 .blogroll article .meta-main-wrap {
   display: flex;
