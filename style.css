@@ -765,6 +765,7 @@ a.standard-btn.secondcolor-btn {
   border-radius: 0;
 }
 .blogroll article .entry-thumbnail {
+  z-index: 1;
   position: absolute;
   width: auto !important;
   height: auto !important;
@@ -774,10 +775,16 @@ a.standard-btn.secondcolor-btn {
   bottom: 0;
 }
 .blogroll article .entry-thumbnail img {
+  
   object-fit: cover;
   object-position: center center;
   border-radius: 0 !important;
+  padding: 0;
+  margin: 0;
+  clip-path: none !important;
 }
+
+
 
 /* tried rounded thing, but did not work
 .blogroll article .entry-thumbnail a {
@@ -802,6 +809,7 @@ a.standard-btn.secondcolor-btn {
 */
 
 .blogroll article .meta-main-wrap {
+  z-index: 10;
   display: flex;
   flex-direction: column-reverse;
 }
