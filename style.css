@@ -755,6 +755,9 @@ a.standard-btn.secondcolor-btn {
 }
 
 /* Blogroll */
+.blogroll {
+  display: flex;
+}
 .blogroll article {
   display: block !important;
   width:50%;
@@ -776,6 +779,8 @@ a.standard-btn.secondcolor-btn {
   bottom: 0;
   padding: 0 !important;
   margin: 0 !important;
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
 }
 
 /*
