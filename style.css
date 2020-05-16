@@ -771,15 +771,14 @@ a.standard-btn.secondcolor-btn {
 .blogroll article img {
   border: none;
   border-radius: 0 !important;
-  border-radius: 100%;
+  border-radius: 100% !important;
   border: 4px solid white;
-  object-fit: cover;
-  object-position: center center;
+
   width: 100% !important;
   max-width: unset !important;
   height: 100%;
   max-height: unset;
-  padding-top:100%;
+  clip-path: none !important;
 }
 .blogroll article .meta-main-wrap {
   display: flex;
