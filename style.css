@@ -769,6 +769,7 @@ a.standard-btn.secondcolor-btn {
   position: absolute;
   width: auto !important;
   height: auto !important;
+  display:block;
   top: 0;
   left: 0;
   right: 0;
@@ -789,7 +790,7 @@ a.standard-btn.secondcolor-btn {
   filter: grayscale(100%);
   padding: 1rem;
 }
-.blogroll article .entry-thumbnail img::after {
+.blogroll article .entry-thumbnail::after {
     content:'';
     position:absolute;
     left:0; top:0;
