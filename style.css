@@ -767,20 +767,20 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .entry-thumbnail a {
   height: 100% !important;
-  clip-path: circle(82% at 0 50%) !important;
+  clip-path: circle(57% at 0 50%) !important;
   background: #ff8800;
 }
 .blogroll article img {
   border: none;
   border-radius: 0 !important;
-  clip-path: circle(80% at 0 50%) !important;
+  clip-path: circle(55% at 0 50%) !important;
   object-fit: cover;
   object-position: center center;
   width: 100% !important;
   max-width: unset !important;
   height: 100%;
   max-height: unset;
-  padding: 1rem !important;
+  padding: 1% !important;
   padding-left: 0 !important;
 }
 .blogroll article .meta-main-wrap {
