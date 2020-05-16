@@ -775,7 +775,7 @@ a.standard-btn.secondcolor-btn {
   left: -50%;
   width: 100% !important;
   max-width: unset !important;
-  height: inherit;
+  height: 100%;
   max-height: unset;
 }
 .blogroll article .meta-main-wrap {
