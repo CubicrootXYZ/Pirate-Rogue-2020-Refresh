@@ -757,10 +757,12 @@ a.standard-btn.secondcolor-btn {
 /* Blogroll */
 .blogroll {
   display: flex;
+  justify-content: space-around;
 }
 .blogroll article {
   display: block !important;
-  width:50%;
+  width:48%;
+  border-radius: 1rem;
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
