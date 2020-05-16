@@ -773,6 +773,8 @@ a.standard-btn.secondcolor-btn {
   left: 0;
   right: 0;
   bottom: 0;
+  padding: 0;
+  margin: 0;
 }
 .blogroll article .entry-thumbnail img {
   z-index:1;
@@ -783,6 +785,11 @@ a.standard-btn.secondcolor-btn {
   margin: 0;
   clip-path: none !important;
   max-height: unset !important;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.blogroll article .entry-thumbnail img::after {
+  background-image: linear-gradient(to bottom, transparent 0%, white 100%);
 }
 
 
@@ -810,9 +817,12 @@ a.standard-btn.secondcolor-btn {
 */
 
 .blogroll article .meta-main-wrap {
+  position: relative;
   z-index: 10;
   display: flex;
   flex-direction: column-reverse;
+  padding: 0.5rem;
+  color: white;
 }
 
 /*# sourceMappingURL=style.css.map */
