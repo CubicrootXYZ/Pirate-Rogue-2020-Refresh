@@ -803,7 +803,6 @@ a.standard-btn.secondcolor-btn {
   overflow:hidden;
   min-height: 100%;
   min-width: 100%;
-  padding: 1rem;
 }
 .blogroll article .entry-thumbnail::after {
   z-index:2;
@@ -845,7 +844,7 @@ a.standard-btn.secondcolor-btn {
   z-index: 10;
   display: flex;
   flex-direction: column-reverse;
-  padding: 0.5rem;
+  padding: 1rem;
   color: white;
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
