@@ -757,6 +757,7 @@ a.standard-btn.secondcolor-btn {
 /* Blogroll */
 .blogroll {
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
 }
 .blogroll article {
@@ -780,6 +781,7 @@ a.standard-btn.secondcolor-btn {
 .blogroll article:hover .entry-thumbnail {
     -webkit-filter: none; 
     filter: none;
+    height: 100%;
     }
 .blogroll article .entry-thumbnail a {
   padding: 0 !important;
@@ -793,6 +795,8 @@ a.standard-btn.secondcolor-btn {
   max-height: unset !important;
   display:block;
   overflow:hidden;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 
