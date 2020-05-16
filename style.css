@@ -775,13 +775,14 @@ a.standard-btn.secondcolor-btn {
   bottom: 0;
 }
 .blogroll article .entry-thumbnail img {
-  
+  z-index:1;
   object-fit: cover;
   object-position: center center;
   border-radius: 0 !important;
   padding: 0;
   margin: 0;
   clip-path: none !important;
+  max-height: unset !important;
 }
 
 
