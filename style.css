@@ -771,7 +771,7 @@ a.standard-btn.secondcolor-btn {
 .blogroll article img {
   border: none;
   border-radius: 0 !important;
-  clip-path: circle(50% at 50% 50%) !important;
+  border-radius: 100% !important;
   object-fit: cover;
   object-position: center center;
   left: -50%;
