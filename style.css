@@ -767,6 +767,7 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .entry-thumbnail a {
   height: 100% !important;
+  border: 8px solid #ff8800;
 }
 .blogroll article img {
   border: none;
@@ -776,8 +777,7 @@ a.standard-btn.secondcolor-btn {
 
   width: 100% !important;
   max-width: unset !important;
-  height: 100%;
-  max-height: unset;
+    max-height: unset;
   clip-path: none !important;
 }
 .blogroll article .meta-main-wrap {
