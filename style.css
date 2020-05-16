@@ -788,7 +788,7 @@ a.standard-btn.secondcolor-btn {
   margin: 0 !important;
 }
 .blogroll article .entry-thumbnail img {
-  border-radius: 100 !important;
+  border-radius: 0 !important;
   padding: 0;
   margin: 0;
   clip-path: none !important;
