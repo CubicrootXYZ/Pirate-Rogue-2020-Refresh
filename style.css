@@ -754,4 +754,10 @@ a.standard-btn.secondcolor-btn {
   content: "Person im Text:";
 }
 
+/* Blogroll */
+.blogroll article {
+  display: flex;
+  flex-direction: column;
+}
+
 /*# sourceMappingURL=style.css.map */
