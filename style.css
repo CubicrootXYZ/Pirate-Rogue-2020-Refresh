@@ -792,7 +792,7 @@ a.standard-btn.secondcolor-btn {
   display:block;
 }
 .blogroll article .entry-thumbnail::after {
-  z-index=2;
+  z-index:2;
     content:'';
     position:absolute;
     left:0; top:0;
