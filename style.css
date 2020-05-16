@@ -765,7 +765,7 @@ a.standard-btn.secondcolor-btn {
   background: unset;
   border-radius: 0;
 }
-.blogroll article .entry-thumbnail, .blogroll article .meta-main-wrap {
+.blogroll article .entry-thumbnail {
   position: absolute;
   top: 0;
   left: 0;
