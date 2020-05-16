@@ -840,6 +840,10 @@ a.standard-btn.secondcolor-btn {
   width: 67% !important;
   float: none !important;
 }
+.blogroll article .meta-main-wrap .entry-main {
+  width: unset !important;
+  float: none !important;
+}
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
 }
 
