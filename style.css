@@ -766,14 +766,17 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .entry-thumbnail {
   position: absolute;
-  width: auto;
-  height: auto;
+  width: auto !important;
+  height: auto !important;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
+}
+.blogroll article .entry-thumbnail img {
   object-fit: cover;
   object-position: center center;
+  border-radius: 0 !important;
 }
 
 /* tried rounded thing, but did not work
