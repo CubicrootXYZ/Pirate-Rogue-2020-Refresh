@@ -757,7 +757,8 @@ a.standard-btn.secondcolor-btn {
 /* Blogroll */
 .blogroll article {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  width:50%;
 }
 
 /*# sourceMappingURL=style.css.map */
