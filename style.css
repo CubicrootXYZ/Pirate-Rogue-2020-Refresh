@@ -764,7 +764,7 @@ a.standard-btn.secondcolor-btn {
   display: block !important;
   width:100%;
   border-radius: 1rem;
-  padding:0;
+  padding:0 !important;
   background: #e3e8e8;
   border-bottom: 4px solid #ff8800;
 }
@@ -779,12 +779,12 @@ a.standard-btn.secondcolor-btn {
   margin: 0 !important;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
-  width: 33%;
   }
 .blogroll article:hover .entry-thumbnail {
     -webkit-filter: none; 
     filter: none;
     height: 100%;
+    width: 33% !important;
     }
 .blogroll article .entry-thumbnail a {
   padding: 0 !important;
