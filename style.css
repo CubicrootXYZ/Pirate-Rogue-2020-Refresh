@@ -761,7 +761,7 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article {
   display: block !important;
-  width:48%;
+  width:100%;
   border-radius: 1rem;
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
@@ -771,20 +771,16 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .entry-thumbnail {
   z-index: 2;
-  position: absolute;
-  width: auto !important;
-  height: auto !important;
   display:block;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
   padding: 0 !important;
   margin: 0 !important;
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
-  
-}
+  }
+.blogroll article:hover .entry-thumbnail {
+    -webkit-filter: none; 
+    filter: none;
+    }
 .blogroll article .entry-thumbnail a {
   height: 100% !important;
   padding: 0 !important;
@@ -799,12 +795,8 @@ a.standard-btn.secondcolor-btn {
   margin: 0;
   clip-path: none !important;
   max-height: unset !important;
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
   display:block;
   overflow:hidden;
-  min-height: 100%;
-  min-width: 100%;
 }
 .blogroll article .entry-thumbnail::after {
   z-index:2;
