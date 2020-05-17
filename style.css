@@ -806,31 +806,6 @@ a.standard-btn.secondcolor-btn {
   object-fit: cover;
   object-position: center center;
 }
-
-
-
-/* tried rounded thing, but did not work
-.blogroll article .entry-thumbnail a {
-  height: 100% !important;
-  clip-path: circle(58% at 0 50%) !important;
-  border-left: 3% solid #ff8800;
-  background: #ff8800;
-}
-.blogroll article img {
-  border: none;
-  border-radius: 0 !important;
-  clip-path: circle(55% at 0 50%) !important;
-  object-fit: cover;
-  object-position: center center;
-  width: 100% !important;
-  max-width: unset !important;
-  height: 100%;
-  max-height: unset;
-  margin: 2% !important;
-  margin-left: 0 !important;
-}
-*/
-
 .blogroll article .meta-main-wrap {
   position: relative;
   z-index: 10;
@@ -845,6 +820,14 @@ a.standard-btn.secondcolor-btn {
   float: none !important;
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
+}
+.page-section-one .entry-thumbnail img {
+  clip-path: none !important;
+
+}
+.page-section-one .post {
+  box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
+  border-radius: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
