@@ -849,6 +849,16 @@ a.standard-btn.secondcolor-btn {
   -webkit-filter: none; 
   filter: none;
 }
+#page-section-one .section-one-column-two .post {
+  border-bottom: 4px solid grey;
+}
+#page-section-one .post .entry-header, #page-section-one .post .entry-summary {
+  padding-left: 0.5rem; 
+  padding-right: 0.5rem;
+}
+#page-section-one .section-one-column-two .post:hover {
+  border-bottom: 4px solid #ff8800;
+}
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
   border: none;
   padding:0.5rem;
