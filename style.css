@@ -840,7 +840,7 @@ a.standard-btn.secondcolor-btn {
 }
 #page-section-one .section-one-column-two .entry-title {
   border: none;
-  font-size: 60%;
+  font-size: 60% !important;
   line-height: 90% !important;
 }
 #page-section-one .section-one-column-two .entry-thumbnail {
