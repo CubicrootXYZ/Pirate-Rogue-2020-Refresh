@@ -833,6 +833,9 @@ a.standard-btn.secondcolor-btn {
   border: none;
   overflow:hidden;
 }
+#page-section-one .post .entry-thumbnail a {
+  clip-path:none;
+}
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
   border: none;
   padding:0.5rem;
