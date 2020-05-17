@@ -821,13 +821,14 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
 }
-.page-section-one .entry-thumbnail img {
+#page-section-one .entry-thumbnail img {
   clip-path: none !important;
 
 }
-.page-section-one .post {
+#page-section-one .post {
   box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
   border-radius: 1rem;
+  padding:0 !important;
 }
 
 /*# sourceMappingURL=style.css.map */
