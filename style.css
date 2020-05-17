@@ -852,7 +852,7 @@ a.standard-btn.secondcolor-btn {
 #page-section-one .section-one-column-two .post {
   border-bottom: 4px solid grey;
   margin-bottom: 1rem;
-  width: unset !important;
+
 }
 #page-section-one .post .entry-header, #page-section-one .post .entry-summary {
   padding-left: 0.5rem; 
