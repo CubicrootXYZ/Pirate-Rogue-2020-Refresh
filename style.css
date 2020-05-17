@@ -835,6 +835,19 @@ a.standard-btn.secondcolor-btn {
 }
 #page-section-one .post .entry-thumbnail a {
   clip-path:none;
+  background: unset !important;
+  padding: 0 !important;
+}
+#page-section-one .section-one-column-two .entry-title {
+  border: none;
+}
+#page-section-one .section-one-column-two .entry-thumbnail {
+  -webkit-filter: grayscale(100%); 
+  filter: grayscale(100%);
+}
+#page-section-one .section-one-column-two .post:hover .entry-thumbnail {
+  -webkit-filter: none; 
+  filter: none;
 }
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
   border: none;
