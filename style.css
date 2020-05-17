@@ -823,12 +823,20 @@ a.standard-btn.secondcolor-btn {
 }
 #page-section-one .entry-thumbnail img {
   clip-path: none !important;
+  border-radius:0;
 
 }
 #page-section-one .post {
   box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
   border-radius: 1rem;
   padding:0 !important;
+  border: none;
+  overflow:hidden;
+}
+#page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
+  border: none;
+  padding:0.5rem;
+  overflow: visible;
 }
 
 /*# sourceMappingURL=style.css.map */
