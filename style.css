@@ -840,6 +840,8 @@ a.standard-btn.secondcolor-btn {
 }
 #page-section-one .section-one-column-two .entry-title {
   border: none;
+  font-size: 60%;
+  line-height: 90% !important;
 }
 #page-section-one .section-one-column-two .entry-thumbnail {
   -webkit-filter: grayscale(100%); 
