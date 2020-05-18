@@ -782,7 +782,6 @@ a.standard-btn.secondcolor-btn {
     -webkit-filter: none; 
     filter: none;
   height: 100%;
-  width:100%;
 }
     .blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail img {
   width:100% !important;
@@ -805,7 +804,7 @@ a.standard-btn.secondcolor-btn {
   display:block;
   overflow:hidden;
   height: 100%;
-  width: 100%;
+  
   object-fit: cover;
   object-position: center center;
 }
