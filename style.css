@@ -926,7 +926,7 @@ a.standard-btn.secondcolor-btn {
   float: none !important;
 }
 .blog-wrap article .meta-main-wrap .entry-main {
-  width: unset !important;
+  width: 100% !important;
   float: none !important;
 }
 .blog-wrap article .meta-main-wrap h2 a, .blog-wrap article .meta-main-wrap .entry-summary {
