@@ -940,5 +940,12 @@ a.standard-btn.secondcolor-btn {
 .section-one-column-one article .entry-thumbnail, .section-two-column-one article .entry-thumbnail,  .section-two-column-two article .entry-thumbnail, .section-one-column-two article .entry-thumbnail  {
   width: 100% !important;
 }
+#front-section-twocolumn article {
+  border-top: none;
+  border-bottom: 4px solid #ff8800;
+}
+#front-section-twocolumn article .entry-header {
+  font-size: 140%;
+}
 
 /*# sourceMappingURL=style.css.map */
