@@ -944,8 +944,15 @@ a.standard-btn.secondcolor-btn {
   border-top: none;
   border-bottom: 4px solid #ff8800;
 }
-#front-section-twocolumn article .entry-header {
-  font-size: 140%;
+#front-section-twocolumn article .entry-header h2 {
+  font-size: 140% !important;
 }
+#front-section-twocolumn article .entry-header, #front-section-twocolumn article .entry-summary {
+  padding: 0.5rem;
+}
+#front-section-twocolumn article .entry-header {
+  border: none;
+}
+
 
 /*# sourceMappingURL=style.css.map */
