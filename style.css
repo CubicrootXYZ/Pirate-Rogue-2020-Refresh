@@ -800,8 +800,6 @@ a.standard-btn.secondcolor-btn {
   border-radius: 0 !important;
   padding: 0;
   margin: 0;
-  clip-path: none !important;
-  max-height: unset !important;
   display:block;
   overflow:hidden;
   min-height: 100%;
