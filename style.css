@@ -945,12 +945,12 @@ a.standard-btn.secondcolor-btn {
   border-bottom: 4px solid #ff8800;
 }
 #front-section-twocolumn article .entry-header h2 {
-  font-size: 140% !important;
+  font-size: 170% !important;
 }
 #front-section-twocolumn article .entry-header, #front-section-twocolumn article .entry-summary {
   padding: 0.5rem;
 }
-#front-section-twocolumn article .entry-header {
+#front-section-twocolumn article .entry-header h2 {
   border: none;
 }
 
