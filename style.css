@@ -902,7 +902,10 @@ a.standard-btn.secondcolor-btn {
   width:100% !important;
   object-fit: cover;
   object-position: center center;
-      }
+}
+.blog-wrap .tag-test .entry-thumbnail {
+  width:100% !important;
+}
 .blog-wrap article .entry-thumbnail a {
   padding: 0 !important;
   margin: 0 !important;
