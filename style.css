@@ -821,49 +821,49 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
 }
-#page-section-one .entry-thumbnail img {
+.shortcode-section .entry-thumbnail img {
   clip-path: none !important;
   border-radius:0;
 
 }
-#page-section-one .post {
+.shortcode-section .post {
   box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
   border-radius: 1rem;
   padding:0 !important;
   border: none;
   overflow:hidden;
 }
-#page-section-one .post .entry-thumbnail a {
+.shortcode-section .post .entry-thumbnail a {
   clip-path:none;
   background: unset !important;
   padding: 0 !important;
 }
-#page-section-one .section-one-column-two .entry-title {
+.shortcode-section .section-one-column-two .entry-title {
   border: none;
   font-size: 120% !important;
   line-height: 95% !important;
 }
-#page-section-one .section-one-column-two .entry-thumbnail {
+.shortcode-section .section-one-column-two .entry-thumbnail {
   -webkit-filter: grayscale(100%); 
   filter: grayscale(100%);
 }
-#page-section-one .section-one-column-two .post:hover .entry-thumbnail {
+.shortcode-section .section-one-column-two .post:hover .entry-thumbnail {
   -webkit-filter: none; 
   filter: none;
 }
-#page-section-one .section-one-column-two .post {
+.shortcode-section .section-one-column-two .post {
   border-bottom: 4px solid grey;
   margin-bottom: 1rem;
 
 }
-#page-section-one .post .entry-header, #page-section-one .post .entry-summary {
+.shortcode-section .post .entry-header, .shortcode-section .post .entry-summary {
   padding-left: 0.5rem; 
   padding-right: 0.5rem;
 }
-#page-section-one .section-one-column-two .post:hover {
+.shortcode-section .section-one-column-two .post:hover {
   border-bottom: 4px solid #ff8800;
 }
-#page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
+.shortcode-section .section-one-column-two, .shortcode-section .section-one-column-one {
   border: none;
   padding:0.5rem;
   overflow: visible;
