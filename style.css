@@ -937,7 +937,7 @@ a.standard-btn.secondcolor-btn {
   padding:0.5rem;
   overflow: visible;
 }
-.section-one-column-one .entry-thumbnail {
+.section-one-column-one article .entry-thumbnail {
   width: 100% !important;
 }
 
