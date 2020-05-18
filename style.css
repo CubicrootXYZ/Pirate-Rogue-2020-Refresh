@@ -942,6 +942,11 @@ a.standard-btn.secondcolor-btn {
 }
 #front-section-twocolumn article {
   border-top: none;
+  border-bottom: 4px solid grey;
+  margin-bottom: 1rem;
+}
+#front-section-twocolumn article:hover {
+  border-top: none;
   border-bottom: 4px solid #ff8800;
   margin-bottom: 1rem;
 }
