@@ -826,7 +826,7 @@ a.standard-btn.secondcolor-btn {
   border-radius:0;
 
 }
-#page-section-one .post {
+#page-section-one .post, #page-section-two .post {
   box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
   border-radius: 1rem;
   padding:0 !important;
@@ -867,6 +867,9 @@ a.standard-btn.secondcolor-btn {
   border: none;
   padding:0.5rem;
   overflow: visible;
+}
+.section-one-column-one .entry-thumbnail {
+  width: 100% !important;
 }
 
 /* Post overview */
