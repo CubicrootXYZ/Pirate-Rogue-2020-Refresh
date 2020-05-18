@@ -898,7 +898,7 @@ a.standard-btn.secondcolor-btn {
     filter: none;
 
     }
-.blog-wrap article .tag-test {
+.blog-wrap article .tag-test .entry-thumbnail {
   width:100% !important;
   object-fit: cover;
   object-position: center center;
