@@ -943,6 +943,7 @@ a.standard-btn.secondcolor-btn {
 #front-section-twocolumn article {
   border-top: none;
   border-bottom: 4px solid #ff8800;
+  margin-bottom: 1rem;
 }
 #front-section-twocolumn article .entry-header h2 {
   font-size: 170% !important;
