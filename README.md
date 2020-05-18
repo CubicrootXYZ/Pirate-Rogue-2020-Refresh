@@ -27,4 +27,8 @@ Child-Theme für Pirate-Rogue (https://github.com/Piratenpartei/Pirate-Rogue). R
 
 [section_featured_top cat="top"]
 
+## Open Issues
+
+#### Post overview images not sized properly
+
 
