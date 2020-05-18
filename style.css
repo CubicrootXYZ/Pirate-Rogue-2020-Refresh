@@ -781,8 +781,9 @@ a.standard-btn.secondcolor-btn {
 .blog-wrap article:hover .entry-thumbnail {
     -webkit-filter: none; 
     filter: none;
-
-    }
+  height: 100%;
+  width:100%;
+}
     .blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail img {
   width:100% !important;
   object-fit: cover;
