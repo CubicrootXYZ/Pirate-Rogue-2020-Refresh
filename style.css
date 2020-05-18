@@ -907,7 +907,7 @@ a.standard-btn.secondcolor-btn {
   background: unset !important;
   padding: 0 !important;
 }
-#page-section-one .section-one-column-two .entry-title {
+#page-section-one .section-one-column-two .entry-title, #page-section-two .section-two-column-two .entry-title {
   border: none;
   font-size: 120% !important;
   line-height: 95% !important;
@@ -920,16 +920,16 @@ a.standard-btn.secondcolor-btn {
   -webkit-filter: none; 
   filter: none;
 }
-#page-section-one .section-one-column-two .post {
+#page-section-one .section-one-column-two .post, #page-section-two .section-two-column-two .post {
   border-bottom: 4px solid grey;
   margin-bottom: 1rem;
 
 }
-#page-section-one .post .entry-header, #page-section-one .post .entry-summary {
+#page-section-one .post .entry-header, #page-section-one .post .entry-summary, #page-section-two .post .entry-header, #page-section-two .post .entry-summary {
   padding-left: 0.5rem; 
   padding-right: 0.5rem;
 }
-#page-section-one .section-one-column-two .post:hover {
+#page-section-one .section-one-column-two .post:hover, #page-section-two .section-two-column-two .post:hover {
   border-bottom: 4px solid #ff8800;
 }
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
