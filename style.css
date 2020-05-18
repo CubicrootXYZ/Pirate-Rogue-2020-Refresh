@@ -946,12 +946,13 @@ a.standard-btn.secondcolor-btn {
 }
 #front-section-twocolumn article .entry-header h2 {
   font-size: 170% !important;
+  border: none;
 }
 #front-section-twocolumn article .entry-header, #front-section-twocolumn article .entry-summary {
   padding: 0.5rem;
 }
-#front-section-twocolumn article .entry-header h2 {
-  border: none;
+#front-section-twocolumn article .entry-header {
+  padding-bottom: 0;
 }
 
 
