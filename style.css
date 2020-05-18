@@ -799,9 +799,7 @@ a.standard-btn.secondcolor-btn {
   max-height: unset;
   display:block
 }
-.blog-wrap article .entry-thumbnail a span {
-  display:block
-}
+
 .blog-wrap article .entry-thumbnail img {
   border-radius: 0 !important;
   padding: 0;
@@ -809,7 +807,7 @@ a.standard-btn.secondcolor-btn {
   display:block;
   overflow:hidden;
   height: 100%;
-  width: unset;
+  width: 100%;
   max-width: unset !important;
   object-fit: cover;
   object-position: center center;
