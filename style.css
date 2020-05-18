@@ -898,12 +898,12 @@ a.standard-btn.secondcolor-btn {
     filter: none;
 
     }
-.blog-wrap .tag-test .entry-thumbnail img {
+    .blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail img {
   width:100% !important;
   object-fit: cover;
   object-position: center center;
 }
-.blog-wrap .tag-test .entry-thumbnail {
+.blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail {
   width:100% !important;
 }
 .blog-wrap article .entry-thumbnail a {
