@@ -965,5 +965,23 @@ a.standard-btn.secondcolor-btn {
   padding-bottom: 0;
 }
 
+/* Topic rectangle */
+.topicrect {
+  display:inline-block;
+  padding: 1rem;
+  background-position: center center;
+  background-size: cover;
+  width: 50%;
+}
+.topicrect-title {
+  font-size: 150%;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  max-width: 100%;
+  background-color: rgba(0,0,0, 0.5);
+}
+
 
 /*# sourceMappingURL=style.css.map */
