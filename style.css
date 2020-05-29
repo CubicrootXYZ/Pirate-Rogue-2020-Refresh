@@ -1001,10 +1001,10 @@ a.standard-btn.secondcolor-btn {
     background-color: rgba(0,0,0, 0.5);
     color: white;
     flex:1;
+    overflow:hidden;
 }
 .topicrect:hover .topicrect-content {
   flex:0;
-  flex-basis:0;
 }
 
 
