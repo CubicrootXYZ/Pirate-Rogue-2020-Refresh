@@ -1035,7 +1035,7 @@ a.standard-btn.secondcolor-btn {
   align-items: flex-end;
   justify-content: flex-end;
   align-content: flex-end;
-  flex-direction: row;
+  flex-direction: column;
 }
 .custom-hpic-inner {
   background-color: rgba(0,0,0,0.5);
