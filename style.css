@@ -996,15 +996,14 @@ a.standard-btn.secondcolor-btn {
   border-bottom: 4px solid #ff8800;
 }
 .topicrect-content {
-    max-height: 0px;
     width: 100%;
     transition:transform 0.3s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
-    transform:scaleY(1);
+    transform:scaleY(0);
 }
 .topicrect:hover .topicrect-content {
-  transform:scaleY(0);
+  transform:scaleY(1);
 }
 
 
