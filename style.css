@@ -976,11 +976,11 @@ a.standard-btn.secondcolor-btn {
   flex-wrap: wrap;
   background-position: center center;
   background-size: cover;
-  width: 50%;
+  width: 48%;
   min-height: 15rem;
   overflow:hidden;
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
+  margin-left: 0.1%;
+  margin-right: 0.1%;
 }
 .topicrect-title {
   width:100%;
