@@ -971,6 +971,7 @@ a.standard-btn.secondcolor-btn {
   display:flex;
   align-items: flex-end;
   justify-content: flex-end;
+  align-content: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
   background-position: center center;
@@ -997,13 +998,13 @@ a.standard-btn.secondcolor-btn {
 .topicrect-content {
     max-height: 0px;
     width: 100%;
-    transition: max-height 0.15s ease-out;
+    transition: max-height 0.5s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
 }
 .topicrect:hover .topicrect-content {
-  max-height: 100vh;
-	transition: max-height 0.15s ease-out;
+  max-height: 100%;
+	transition: max-height 0.5s ease-out;
 }
 
 
