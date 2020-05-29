@@ -970,6 +970,7 @@ a.standard-btn.secondcolor-btn {
   float:left;
   display:flex;
   align-items: flex-end;
+  justify-content: flex-end;
   flex-direction: row;
   flex-wrap: wrap;
   background-position: center center;
@@ -996,19 +997,13 @@ a.standard-btn.secondcolor-btn {
 .topicrect-content {
     max-height: 0px;
     width: 100%;
-    -webkit-transition: max-height 0.2s linear;
-       -moz-transition: max-height 0.2s linear;
-        -ms-transition: max-height 0.2s linear;
-         -o-transition: max-height 0.2s linear;
-            transition: max-height 0.2s linear;
+    transition: max-height 0.15s ease-out;
+    background-color: rgba(0,0,0, 0.5);
+    color: white;
 }
 .topicrect:hover .topicrect-content {
-  max-height: 500vh;
-	-webkit-transition: max-height 0.2s linear;
-       -moz-transition: max-height 0.2s linear;
-        -ms-transition: max-height 0.2s linear;
-         -o-transition: max-height 0.2s linear;
-            transition: max-height 0.2s linear;
+  max-height: 100vh;
+	transition: max-height 0.15s ease-out;
 }
 
 
