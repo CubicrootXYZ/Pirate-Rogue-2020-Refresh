@@ -1,5 +1,5 @@
 <?php
-include('custom-shortcodes.php');
+include('custom_shortcodes.php');
 
 /* enqueue styles og parent theme */
 function parent_enqueue_styles() {
