@@ -1019,7 +1019,7 @@ a.standard-btn.secondcolor-btn {
 .custom-flexrow {
   display:flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   align-content: flex-start;
   flex-wrap: wrap;
 }
