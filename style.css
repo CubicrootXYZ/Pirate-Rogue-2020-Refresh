@@ -1001,17 +1001,17 @@ a.standard-btn.secondcolor-btn {
   border-bottom: 4px solid #ff8800;
   padding-bottom:0.25rem;
 }
-.topicrect-title:hover {
-  color: #ff8800;
+.topicrect-title:hover, .topicrect-title:focus {
+  color: #ff8800 !important;
 }
-.topicrect-content {
+.topicrect-content, .topicrect-content:hover, .topicrect-content:focus, .topicrect-content:active {
     width: 100%;
     background-color: rgba(0,0,0, 0.5);
     color: white;
     padding: 1rem;
     padding-top: 0;
 }
-.topicrect-url, .topicrect-url:hover, .topicrect-url:active, .topicrect-url:target, .topicrect-url:visited {
+.topicrect-url, .topicrect-url:hover, .topicrect-url:active, .topicrect-url:target, .topicrect-url:visited, .topicrect-url:focus {
   color: white;
 }
 
