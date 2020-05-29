@@ -757,7 +757,7 @@ a.standard-btn.secondcolor-btn {
 /* Post overview */
 .blog-wrap article {
   display: flex !important;
-  align-items: center;
+  align-items: stretch;
   width:100%;
   border-radius: 1rem;
   padding:0 !important;
