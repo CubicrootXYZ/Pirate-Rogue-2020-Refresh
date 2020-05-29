@@ -997,7 +997,7 @@ a.standard-btn.secondcolor-btn {
 }
 .topicrect-content {
     width: 100%;
-    transition:transform 0.3s ease-out;
+    transition:all 0.3s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
     transform:scaleY(0);
