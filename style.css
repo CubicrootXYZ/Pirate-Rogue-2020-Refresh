@@ -984,6 +984,7 @@ a.standard-btn.secondcolor-btn {
   overflow:hidden;
   cursor:pointer;
   min-width: min(20rem, 100vw);
+  width: 48%;
 }
 .topicrect-title {
   width:100%;
@@ -1020,6 +1021,7 @@ a.standard-btn.secondcolor-btn {
   flex-direction: row;
   justify-content: space-evenly;
   align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 /*# sourceMappingURL=style.css.map */
