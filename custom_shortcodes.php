@@ -10,6 +10,6 @@ function topicrect_func($atts, $content = null) {
         'url' => '#',
         'title' => 'Use title=Title'
        ), $atts));
-    return "<div style='background-image: url(".$image.")' class=''>".$title."</div>"
+    return "<div style='background-image: url(".$image.")' class=''>".$title."</div>";
 }
 ?>
