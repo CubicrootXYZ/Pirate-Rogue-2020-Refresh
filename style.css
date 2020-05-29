@@ -1003,7 +1003,7 @@ a.standard-btn.secondcolor-btn {
             transition: height 0.5s linear;
 }
 .topicrect:hover .topicrect-content {
-  height: 100px;
+  height: unset;
 	-webkit-transition: height 0.5s linear;
        -moz-transition: height 0.5s linear;
         -ms-transition: height 0.5s linear;
