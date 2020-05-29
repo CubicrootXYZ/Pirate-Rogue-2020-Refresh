@@ -1023,5 +1023,18 @@ a.standard-btn.secondcolor-btn {
   align-content: flex-start;
   flex-wrap: wrap;
 }
-
+.custom-hpic {
+  background-size: cover;
+  background-position: center center;
+}
+.custom-hpic-inner {
+  background-color: rgba(0,0,0,0.5);
+  color: white;
+  border-bottom: 4px solid #ff8800;
+  padding: 0.75rem;
+}
+.custom-hpic-inner h2 {
+  border: none;
+  text-decoration: none;
+}
 /*# sourceMappingURL=style.css.map */
