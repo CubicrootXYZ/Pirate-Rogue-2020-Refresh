@@ -59,6 +59,16 @@ This shortcode provides a flexbox container.
 
 Sets the `content` into a flexbox with wrap, centered and row direction.
 
+### Heading with Image
+
+This shortcode puts an image behind a h2 heading. 
+
+`[hpic image="" title=""]`
+
+`image`: image to be placed in the background.
+
+`title`: headline
+
 ## Open Issues
 
 #### Post overview images not sized properly
