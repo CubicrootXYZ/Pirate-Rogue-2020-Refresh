@@ -15,6 +15,11 @@ function topicrect_func($atts, $content = null) {
 }
 function flexrow_func($atts, $content = null) {
     // set up default parameters
+    extract(shortcode_atts(array(
+        'image' => '',
+        'url' => '#',
+        'title' => 'Use title=Title'
+       ), $atts));
     return "<div class='custom-flexrow'>".$content."</div>";
 }
 ?>
