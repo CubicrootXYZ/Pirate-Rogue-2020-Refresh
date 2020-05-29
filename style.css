@@ -980,12 +980,14 @@ a.standard-btn.secondcolor-btn {
   min-height: 15rem;
   overflow:hidden;
   margin: 0.3%;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
   border-radius: 0.5rem; 
   overflow:hidden;
 }
 .topicrect-title {
   width:100%;
-  font-size: 190%;
+  font-size: 220%;
   font-weight: bold;
   bottom: 0;
   left: 0;
@@ -998,6 +1000,9 @@ a.standard-btn.secondcolor-btn {
   padding: 1rem;
   border-bottom: 4px solid #ff8800;
   padding-bottom:0.25rem;
+}
+.topicrect-title:hover {
+  color: #ff8800;
 }
 .topicrect-content {
     width: 100%;
