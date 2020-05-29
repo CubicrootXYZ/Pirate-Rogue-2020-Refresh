@@ -28,6 +28,6 @@ function hpic_func($atts) {
         'image' => '',
         'title' => ''
        ), $atts));
-    return do_shortcode("<div class='custom-hpic' style='background-image: url(\"".$image."\")'><div class='custom-hpic-inner' ><h2>".$title."</h2></div></div>");
+    return "<div class='custom-hpic' style='background-image: url(\"".$image."\")'><div class='custom-hpic-inner' ><h2>".$title."</h2></div></div>";
 }
 ?>
