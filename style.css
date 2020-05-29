@@ -979,10 +979,12 @@ a.standard-btn.secondcolor-btn {
   width: 50%;
   min-height: 15rem;
   overflow:hidden;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 .topicrect-title {
   width:100%;
-  font-size: 160%;
+  font-size: 190%;
   font-weight: bold;
   bottom: 0;
   left: 0;
@@ -997,15 +999,10 @@ a.standard-btn.secondcolor-btn {
 }
 .topicrect-content {
     width: 100%;
-    transition:all 0.3s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
-    flex:1;
-    
-}
-.topicrect:hover .topicrect-content {
-  flex:0;
-  overflow:hidden;
+    padding: 1rem;
+    padding-top: 0;
 }
 
 
