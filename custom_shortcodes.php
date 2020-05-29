@@ -10,6 +10,6 @@ function topicrect_func($atts, $content = null) {
         'url' => '#',
         'title' => 'Use title=Title'
        ), $atts));
-    return "<div onclick='location.href='".$url."';' style='background-image: url(".$image.")' class='topicrect'><div class='topicrect-title'>".$title."</div><div class='topicrect-content'>".$content."</div></div>";
+    return "<div onclick='location.href=\"".$url."\";' style='background-image: url(".$image.")' class='topicrect'><div class='topicrect-title'>".$title."</div><div class='topicrect-content'>".$content."</div></div>";
 }
 ?>
