@@ -967,9 +967,11 @@ a.standard-btn.secondcolor-btn {
 
 /* Topic rectangle */
 .topicrect {
+  float:left;
   display:flex;
   align-items: flex-end;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
   background-position: center center;
   background-size: cover;
   width: 50%;
@@ -991,6 +993,7 @@ a.standard-btn.secondcolor-btn {
 }
 .topicrect-content {
     max-height: 0;
+    width: 100%;
 }
 .topicrect:hover .topicrect-content {
   max-height: unset;
