@@ -967,7 +967,6 @@ a.standard-btn.secondcolor-btn {
 
 /* Topic rectangle */
 .topicrect {
-  float:left;
   display:flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -1016,6 +1015,10 @@ a.standard-btn.secondcolor-btn {
   color: white;
 }
 
-
+.custom-flexrow {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
 
 /*# sourceMappingURL=style.css.map */
