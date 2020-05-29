@@ -979,9 +979,7 @@ a.standard-btn.secondcolor-btn {
   width: 48%;
   min-height: 15rem;
   overflow:hidden;
-  margin-left: 0.1%;
-  margin-right: 0.1%;
-  margin: 0.1%;
+  margin: 0.3%;
   border-radius: 0.5rem; 
   overflow:hidden;
 }
