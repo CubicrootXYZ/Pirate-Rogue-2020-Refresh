@@ -969,6 +969,7 @@ a.standard-btn.secondcolor-btn {
 .topicrect {
   display:flex;
   align-items: flex-end;
+  flex-direction: column;
   background-position: center center;
   background-size: cover;
   width: 50%;
