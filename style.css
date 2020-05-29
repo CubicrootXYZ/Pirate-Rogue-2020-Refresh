@@ -984,6 +984,7 @@ a.standard-btn.secondcolor-btn {
   margin-top: 1rem;
   border-radius: 0.5rem; 
   overflow:hidden;
+  cursor:pointer;
 }
 .topicrect-title {
   width:100%;
