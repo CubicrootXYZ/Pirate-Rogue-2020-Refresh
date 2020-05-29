@@ -967,7 +967,8 @@ a.standard-btn.secondcolor-btn {
 
 /* Topic rectangle */
 .topicrect {
-  display:inline-block;
+  display:flex;
+  align-items: flex-end;
   padding: 1rem;
   background-position: center center;
   background-size: cover;
@@ -976,7 +977,6 @@ a.standard-btn.secondcolor-btn {
 .topicrect-title {
   font-size: 150%;
   font-weight: bold;
-  position: absolute;
   bottom: 0;
   left: 0;
   max-width: 100%;
