@@ -1047,6 +1047,7 @@ a.standard-btn.secondcolor-btn {
   padding: 0.75rem;
   padding-top:1rem;
   min-height: 3rem;
+  width: 100%;
 }
 .custom-hpic-inner h2 {
   border: none;
