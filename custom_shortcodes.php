@@ -22,7 +22,7 @@ function flexrow_func($atts, $content = null) {
        ), $atts));
     return do_shortcode("<div class='custom-flexrow'>".$content."</div>");
 }
-function flexrow_func($atts) {
+function hpic_func($atts) {
     // set up default parameters
     extract(shortcode_atts(array(
         'image' => '',
