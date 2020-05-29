@@ -20,6 +20,6 @@ function flexrow_func($atts, $content = null) {
         'url' => '#',
         'title' => 'Use title=Title'
        ), $atts));
-    return "<div class='custom-flexrow'>".$content."</div>";
+    return do_shortcode("<div class='custom-flexrow'>".$content."</div>");
 }
 ?>
