@@ -998,13 +998,13 @@ a.standard-btn.secondcolor-btn {
 .topicrect-content {
     max-height: 0px;
     width: 100%;
-    transition: max-height 0.5s ease-out;
+    transition:transform 0.3s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
+    transform:scaleY(1);
 }
 .topicrect:hover .topicrect-content {
-  max-height: 100%;
-	transition: max-height 0.5s ease-out;
+  transform:scaleY(0);
 }
 
 
