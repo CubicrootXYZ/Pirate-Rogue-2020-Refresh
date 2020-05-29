@@ -1011,6 +1011,10 @@ a.standard-btn.secondcolor-btn {
     padding: 1rem;
     padding-top: 0;
 }
+.topicrect-url, .topicrect-url:hover, .topicrect-url:active, .topicrect-url:target, .topicrect-url:visited {
+  color: white;
+}
+
 
 
 /*# sourceMappingURL=style.css.map */
