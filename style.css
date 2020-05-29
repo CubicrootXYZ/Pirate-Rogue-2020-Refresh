@@ -992,6 +992,7 @@ a.standard-btn.secondcolor-btn {
     max-height: 0;
 }
 .topicrect:hover .topicrect-content {
+  max-height: unset;
   transition-property: all;
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
