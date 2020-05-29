@@ -976,6 +976,7 @@ a.standard-btn.secondcolor-btn {
   background-size: cover;
   width: 50%;
   min-height: 15rem;
+  overflow:hidden;
 }
 .topicrect-title {
   width:100%;
@@ -992,11 +993,11 @@ a.standard-btn.secondcolor-btn {
   padding: 1rem;
 }
 .topicrect-content {
-    max-height: 0;
+    display:none;
     width: 100%;
 }
 .topicrect:hover .topicrect-content {
-  max-height: unset;
+  display:block;
   transition-property: all;
 	transition-duration: .5s;
 	transition-timing-function: cubic-bezier(0, 1, 0.5, 1);
