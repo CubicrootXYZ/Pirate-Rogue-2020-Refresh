@@ -781,34 +781,23 @@ a.standard-btn.secondcolor-btn {
 .blog-wrap article:hover .entry-thumbnail {
     -webkit-filter: none; 
     filter: none;
-  height: 100%;
-}
-    .blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail img {
-  width:100% !important;
-  object-fit: cover;
-  object-position: center center;
-}
-.blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail {
-  width:100% !important;
-}
+
+    }
 .blog-wrap article .entry-thumbnail a {
   padding: 0 !important;
   margin: 0 !important;
   height:100% !important;
-  width: 100%;
-  max-height: unset;
-  display:block
 }
-
 .blog-wrap article .entry-thumbnail img {
   border-radius: 0 !important;
   padding: 0;
   margin: 0;
+  clip-path: none !important;
+  max-height: unset !important;
   display:block;
   overflow:hidden;
-  height: 100%;
-  width: 100%;
-  max-width: unset !important;
+  min-height: 100%;
+  min-width: 100%;
   object-fit: cover;
   object-position: center center;
 }
