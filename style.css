@@ -758,7 +758,7 @@ a.standard-btn.secondcolor-btn {
 .blog-wrap article {
   display: flex !important;
   align-items: stretch;
-  flex-direction: column;
+  flex-direction: row;
   width:100%;
   border-radius: 1rem;
   padding:0 !important;
