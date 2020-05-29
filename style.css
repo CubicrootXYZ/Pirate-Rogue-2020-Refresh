@@ -996,6 +996,7 @@ a.standard-btn.secondcolor-btn {
   color: white;
   padding: 1rem;
   border-bottom: 4px solid #ff8800;
+  padding-bottom:0.25rem;
 }
 .topicrect-content {
     width: 100%;
@@ -1003,6 +1004,7 @@ a.standard-btn.secondcolor-btn {
     color: white;
     padding: 1rem;
     padding-top: 0;
+    padding-bottom:0.25rem;
 }
 
 
