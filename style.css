@@ -1004,6 +1004,7 @@ a.standard-btn.secondcolor-btn {
 }
 .topicrect:hover .topicrect-content {
   flex:0;
+  flex-basis:0;
 }
 
 
