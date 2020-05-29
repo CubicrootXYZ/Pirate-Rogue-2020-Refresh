@@ -1033,8 +1033,6 @@ a.standard-btn.secondcolor-btn {
   margin-bottom: 1rem;
   display:flex;
   align-items: flex-end;
-  justify-content: flex-end;
-  align-content: flex-end;
   flex-direction: column;
 }
 .custom-hpic-inner {
@@ -1046,8 +1044,9 @@ a.standard-btn.secondcolor-btn {
   border-bottom: 4px solid #ff8800;
   padding: 0.75rem;
   padding-top:1rem;
-  min-height: 3rem;
+  min-height: 6rem;
   width: 100%;
+  height: auto;
 }
 .custom-hpic-inner h2 {
   border: none;
