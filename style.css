@@ -754,80 +754,6 @@ a.standard-btn.secondcolor-btn {
   content: "Person im Text:";
 }
 
-/* Post overview */
-.blog-wrap article {
-  display: flex !important;
-  align-items: stretch;
-  flex-direction: row-reverse;
-  width:100%;
-  border-radius: 1rem;
-  padding:0 !important;
-  overflow:hidden;
-  margin-bottom:1rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
-}
-.blog-wrap article .entry-thumbnail a, .blog-wrap article .entry-thumbnail  {
-  clip-path: none;
-  background: unset;
-  border-radius: 0;
-}
-.blog-wrap article .entry-thumbnail {
-  display:block;
-  padding: 0 !important;
-  margin: 0 !important;
-  -webkit-filter: grayscale(100%); 
-  filter: grayscale(100%);
-  height: 100% !important;
-  width: 33% !important;
-  }
-.blog-wrap article:hover .entry-thumbnail {
-    -webkit-filter: none; 
-    filter: none;
-  height: 100%;
-}
-    .blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail img {
-  width:100% !important;
-  object-fit: cover;
-  object-position: center center;
-}
-.blog #primary .hentry.has-post-thumbnail:nth-child(4n+1) .entry-thumbnail {
-  width:100% !important;
-}
-.blog-wrap article .entry-thumbnail a {
-  padding: 0 !important;
-  margin: 0 !important;
-  height:100% !important;
-  width: 100%;
-  max-height: unset;
-  display:block
-}
-
-.blog-wrap article .entry-thumbnail img {
-  border-radius: 0 !important;
-  padding: 0;
-  margin: 0;
-  display:block;
-  overflow:hidden;
-  height: 100%;
-  width: 100%;
-  max-width: unset !important;
-  object-fit: cover;
-  object-position: center center;
-}
-.blog-wrap article .meta-main-wrap {
-  position: relative;
-  z-index: 10;
-  display: flex;
-  flex-direction: column-reverse;
-  padding: 1rem;
-  width: 67% !important;
-  float: none !important;
-}
-.blog-wrap article .meta-main-wrap .entry-main {
-  width: unset !important;
-  float: none !important;
-}
-
 /* Blogroll */
 .blogroll {
   display: flex;
@@ -895,12 +821,12 @@ a.standard-btn.secondcolor-btn {
 }
 .blogroll article .meta-main-wrap h2 a, .blogroll article .meta-main-wrap .entry-summary {
 }
-.shortcode-section .entry-thumbnail img {
+#page-section-one .entry-thumbnail img {
   clip-path: none !important;
   border-radius:0;
 
 }
-#page-section-one .post, #page-section-two .post {
+#page-section-one .post {
   box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
   border-radius: 1rem;
   padding:0 !important;
@@ -912,7 +838,7 @@ a.standard-btn.secondcolor-btn {
   background: unset !important;
   padding: 0 !important;
 }
-#page-section-one .section-one-column-two .entry-title, #page-section-two .section-two-column-two .entry-title {
+#page-section-one .section-one-column-two .entry-title {
   border: none;
   font-size: 120% !important;
   line-height: 95% !important;
@@ -925,16 +851,16 @@ a.standard-btn.secondcolor-btn {
   -webkit-filter: none; 
   filter: none;
 }
-#page-section-one .section-one-column-two .post, #page-section-two .section-two-column-two .post {
+#page-section-one .section-one-column-two .post {
   border-bottom: 4px solid grey;
   margin-bottom: 1rem;
 
 }
-#page-section-one .post .entry-header, #page-section-one .post .entry-summary, #page-section-two .post .entry-header, #page-section-two .post .entry-summary {
+#page-section-one .post .entry-header, #page-section-one .post .entry-summary {
   padding-left: 0.5rem; 
   padding-right: 0.5rem;
 }
-#page-section-one .section-one-column-two .post:hover, #page-section-two .section-two-column-two .post:hover {
+#page-section-one .section-one-column-two .post:hover {
   border-bottom: 4px solid #ff8800;
 }
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
@@ -942,29 +868,5 @@ a.standard-btn.secondcolor-btn {
   padding:0.5rem;
   overflow: visible;
 }
-.section-one-column-one article .entry-thumbnail, .section-two-column-one article .entry-thumbnail,  .section-two-column-two article .entry-thumbnail, .section-one-column-two article .entry-thumbnail  {
-  width: 100% !important;
-}
-#front-section-twocolumn article {
-  border-top: none;
-  border-bottom: 4px solid grey;
-  margin-bottom: 1rem;
-}
-#front-section-twocolumn article:hover {
-  border-top: none;
-  border-bottom: 4px solid #ff8800;
-  margin-bottom: 1rem;
-}
-#front-section-twocolumn article .entry-header h2 {
-  font-size: 170% !important;
-  border: none;
-}
-#front-section-twocolumn article .entry-header, #front-section-twocolumn article .entry-summary {
-  padding: 0.5rem;
-}
-#front-section-twocolumn article .entry-header {
-  padding-bottom: 0;
-}
-
 
 /*# sourceMappingURL=style.css.map */
