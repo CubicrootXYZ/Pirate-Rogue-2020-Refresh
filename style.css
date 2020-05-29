@@ -1000,10 +1000,10 @@ a.standard-btn.secondcolor-btn {
     transition:all 0.3s ease-out;
     background-color: rgba(0,0,0, 0.5);
     color: white;
-    transform:scaleY(0);
+    flex:1;
 }
 .topicrect:hover .topicrect-content {
-  transform:scaleY(1);
+  flex:0;
 }
 
 
