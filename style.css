@@ -1003,7 +1003,7 @@ a.standard-btn.secondcolor-btn {
   border-bottom: 4px solid #ff8800;
   padding-bottom:0.25rem;
 }
-.topicrect:hover .topicrect-title,.topicrect:focus .topicrect-title {
+.topicrect:hover .topicrect-title, .topicrect:focus .topicrect-title {
   color: #ff8800 !important;
 }
 .topicrect-content, .topicrect-content:hover, .topicrect-content:focus, .topicrect-content:active {
