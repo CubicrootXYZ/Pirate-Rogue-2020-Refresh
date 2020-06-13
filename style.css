@@ -967,6 +967,7 @@ a.standard-btn.secondcolor-btn {
 
 /* Topic rectangle */
 .topicrect {
+  background-color: black;
   display:flex;
   align-items: flex-end;
   justify-content: flex-end;
@@ -993,16 +994,16 @@ a.standard-btn.secondcolor-btn {
   bottom: 0;
   left: 0;
   max-width: 100%;
-  background-color: rgba(0,0,0, 0.5);
-  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.5) 20%); /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 20%); /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background-color: rgba(0,0,0, 0.7);
+  background: -moz-linear-gradient(top, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 20%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 20%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, rgba(0,0,0,0) 0%,rgba(0,0,0,0.7) 20%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
   color: white;
   padding: 1rem;
   border-bottom: 4px solid #ff8800;
   padding-bottom:0.25rem;
 }
-.topicrect-title:hover, .topicrect-title:focus {
+.topicrect:hover .topicrect-title,.topicrect:focus .topicrect-title {
   color: #ff8800 !important;
 }
 .topicrect-content, .topicrect-content:hover, .topicrect-content:focus, .topicrect-content:active {

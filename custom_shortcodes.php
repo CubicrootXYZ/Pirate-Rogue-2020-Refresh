@@ -11,9 +11,9 @@ function topicrect_func($atts, $content = null) {
         'image' => '',
         'url' => '#',
         'title' => 'Use title=Title',
-        'width' => "31%"
+        'width' => "33%"
        ), $atts));
-    return "<div onclick='location.href=\"".$url."\";' style='background-image: url(\"".$image."\"); width:".$width.";' class='topicrect'><div class='topicrect-title'>".$title."</div><div class='topicrect-content'>".$content."</div></div>";
+    return "<div onclick='location.href=\"".$url."\";' style='background-image: url(\"".$image."\"); width:".$width-2.";' class='topicrect'><div class='topicrect-title'>".$title."</div><div class='topicrect-content'>".$content."</div></div>";
 }
 function flexrow_func($atts, $content = null) {
     // set up default parameters
