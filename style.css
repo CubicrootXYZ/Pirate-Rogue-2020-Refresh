@@ -1008,7 +1008,7 @@ a.standard-btn.secondcolor-btn {
 }
 .topicrect-content, .topicrect-content:hover, .topicrect-content:focus, .topicrect-content:active {
     width: 100%;
-    background-color: rgba(0,0,0, 0.5);
+    background-color: rgba(0,0,0, 0.7);
     color: white;
     padding: 1rem;
     padding-top: 1.5rem;
