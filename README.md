@@ -45,7 +45,7 @@ This shortcode provides a rectangle with a title, content, background image and 
 
 `image`: url to background image
 
-`width`: width of the rectangle, defaults to `33%`.
+`width`: width of the rectangle, defaults to `31%`. The rectangle has a margin of 1% on each side, so subtract that.
 
 `content`: displayed underneath the title
 
