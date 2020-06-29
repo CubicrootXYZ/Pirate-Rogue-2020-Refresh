@@ -900,7 +900,7 @@ a.standard-btn.secondcolor-btn {
 
 }
 #page-section-one .post, #page-section-two .post {
-  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
   border-radius: 1rem;
   padding:0 !important;
   border: none;
