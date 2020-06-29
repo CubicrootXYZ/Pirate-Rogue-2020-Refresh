@@ -522,3 +522,8 @@ a.standard-btn.secondcolor-btn {
 } 
 
 /*# sourceMappingURL=style.css.map */
+
+.topicrect {
+  flex-grow: 1;
+  flex-shrink: 1;
+}
