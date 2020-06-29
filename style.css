@@ -840,11 +840,11 @@ a.standard-btn.secondcolor-btn {
   padding:0 !important;
   overflow:hidden;
   margin-bottom:1rem;
-  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
+  border-radius: 0.5rem;
+  border: 1px solid  #e3e8e8;
 }
-.blogroll article::after {
- content: "<hr>";
-}
+
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
   background: unset;
@@ -905,10 +905,11 @@ a.standard-btn.secondcolor-btn {
 #page-section-one .post, #page-section-two .post {
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
   border-radius: 0.5rem;
+  border: 1px solid  #e3e8e8;
   padding:0 !important;
   border: none;
   overflow:hidden;
-  border: 1px solid  #e3e8e8;
+  
 }
 #page-section-one .post .entry-thumbnail a {
   clip-path:none;
