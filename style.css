@@ -905,6 +905,7 @@ a.standard-btn.secondcolor-btn {
   padding:0 !important;
   border: none;
   overflow:hidden;
+  background: lightgrey;
 }
 #page-section-one .post .entry-thumbnail a {
   clip-path:none;
