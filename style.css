@@ -900,7 +900,7 @@ a.standard-btn.secondcolor-btn {
 
 }
 #page-section-one .post, #page-section-two .post {
-  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important
   border-radius: 1rem;
   padding:0 !important;
   border: none;
@@ -935,7 +935,7 @@ a.standard-btn.secondcolor-btn {
   padding-right: 0.5rem;
 }
 #page-section-one .section-one-column-two .post:hover, #page-section-two .section-two-column-two .post:hover {
-  border-bottom: 4px solid #ff8800;
+  /*border-bottom: 4px solid #ff8800;*/
 }
 #page-section-one .section-one-column-two, #page-section-one .section-one-column-one {
   border: none;
@@ -947,7 +947,7 @@ a.standard-btn.secondcolor-btn {
 }
 #front-section-twocolumn article {
   border-top: none;
-  border-bottom: 4px solid grey;
+  /*border-bottom: 4px solid grey;*/
   margin-bottom: 1rem;
 }
 #front-section-twocolumn article:hover {
