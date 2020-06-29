@@ -900,12 +900,13 @@ a.standard-btn.secondcolor-btn {
 
 }
 #page-section-one .post, #page-section-two .post {
-  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
-  border-radius: 1rem;*/
+  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
+  border-radius: 1rem;
   padding:0 !important;
   border: none;
   overflow:hidden;
-  background: lightgrey;
+  background: #e2e2e2;
+  border: 1px solid  #e3e8e8;
 }
 #page-section-one .post .entry-thumbnail a {
   clip-path:none;
