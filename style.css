@@ -758,11 +758,11 @@ a.standard-btn.secondcolor-btn {
 .blog-wrap article {
   display: block !important;
   width:100%;
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
   padding:0 !important;
   overflow:hidden;
   margin-bottom:1rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
+  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
 }
 .blog-wrap article .entry-thumbnail a, .blog-wrap article .entry-thumbnail  {
   clip-path: none;
@@ -836,11 +836,11 @@ a.standard-btn.secondcolor-btn {
 .blogroll article {
   display: block !important;
   width:100%;
-  border-radius: 1rem;
+  /*border-radius: 1rem;*/
   padding:0 !important;
   overflow:hidden;
   margin-bottom:1rem;
-  box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
+  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
 }
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
@@ -900,8 +900,8 @@ a.standard-btn.secondcolor-btn {
 
 }
 #page-section-one .post, #page-section-two .post {
-  box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
-  border-radius: 1rem;
+  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;
+  border-radius: 1rem;*/
   padding:0 !important;
   border: none;
   overflow:hidden;
