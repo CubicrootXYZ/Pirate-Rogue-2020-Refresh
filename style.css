@@ -842,6 +842,9 @@ a.standard-btn.secondcolor-btn {
   margin-bottom:1rem;
   /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
 }
+.blogroll article::after {
+ content: "<hr>";
+}
 .blogroll article .entry-thumbnail a, .blogroll article .entry-thumbnail  {
   clip-path: none;
   background: unset;
