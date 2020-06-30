@@ -827,6 +827,9 @@ a.standard-btn.secondcolor-btn {
   width: unset !important;
   float: none !important;
 }
+.blog-wrap article .entry-title {
+  border-bottom: 4px solid #ff8800;
+}
 
 /* Blogroll */
 .blogroll {
