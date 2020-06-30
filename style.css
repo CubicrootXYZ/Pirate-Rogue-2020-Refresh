@@ -640,6 +640,12 @@ a.standard-btn.secondcolor-btn {
 .entry-content p {
   text-align: justify;
 }
+.list-style.style-1 figure img, .list-style.style-2 figure img {
+  margin: 0 auto 0.2rem;
+}
+.picrew-grid-card img {
+  max-width: 50%;
+}
 
 /* PAges */
 .page-template-default .entry-title {
