@@ -634,6 +634,12 @@ a.standard-btn.secondcolor-btn {
 .sidebar {
   display:none;
 }
+.post-navigation {
+  text-align: center;
+}
+.entry-content p {
+  text-align: justify;
+}
 
 /* PAges */
 .page-template-default .entry-title {
