@@ -1097,6 +1097,8 @@ blockquote {
 /* Fancy Title */
 .fancytitle {
   margin: auto;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
   text-align: center;
   width: max-content;
 }
@@ -1108,7 +1110,7 @@ blockquote {
 .fancytitle .bg2 {
   padding-left:0.5rem;
   padding-right:0.5rem;
-  transform: rotate(3deg);
+  transform: rotate(2deg);
   background: #ff8800;
 }
 .fancytitle .bg2 h2 { 
