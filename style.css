@@ -1109,10 +1109,12 @@ blockquote {
   padding:0.5rem;
   transform: rotate(3deg);
   background: #ff8800;
+}
+.fancytitle .bg2 h2 { 
+  font-size: 115%;
+  padding: 0.3rem !important;
+  margin:0;
   color: white;
-  font-size: 160%;
-  font-weight: 900;
-  font-family: ;
 }
 
 
