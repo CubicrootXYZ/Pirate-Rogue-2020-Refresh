@@ -758,11 +758,9 @@ a.standard-btn.secondcolor-btn {
 .blog-wrap article {
   display: block !important;
   width:100%;
-  /*border-radius: 1rem;*/
   padding:0 !important;
   overflow:hidden;
   margin-bottom:1rem;
-  /*box-shadow: 0.5rem 0.5rem 0.5rem lightgrey;*/
   box-shadow: rgba(0, 0, 0, 0.15) 0px 0.5rem 1rem !important;
   border-radius: 0.5rem;
   border: 1px solid  #e3e8e8;
