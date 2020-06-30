@@ -833,6 +833,10 @@ a.standard-btn.secondcolor-btn {
 .entry-cats a {
   padding: 0.2rem;
 }
+.entry-cats a::before {
+  color: white;
+  background: unset;
+}
 
 /* Blogroll */
 .blogroll {
