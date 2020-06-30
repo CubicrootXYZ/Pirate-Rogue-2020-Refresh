@@ -1115,6 +1115,7 @@ blockquote {
   padding: 0.3rem !important;
   margin:0;
   color: white;
+  text-transform: uppercase;
 }
 
 
