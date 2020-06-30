@@ -850,8 +850,8 @@ blockquote {
   padding: 0.2rem;
 }
 .entry-cats a::before {
-  color: white;
-  background: unset;
+  color: white !important;
+  background: unset !important;
 }
 
 /* Blogroll */
@@ -1093,4 +1093,23 @@ blockquote {
   text-decoration: none;
   color: white;
 }
+
+/* Fancy Title */
+.fancytitle {
+  margin: auto;
+  text-align: center;
+}
+.fancytitle .bg1 {
+  padding:0.2rem;
+  transform: rotate(12deg);
+  background: black;
+}
+.fancytitle .bg2 {
+  padding:0.2rem;
+  transform: rotate(12deg);
+  background: #ff8800;
+  color: white;
+}
+
+
 /*# sourceMappingURL=style.css.map */
