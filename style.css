@@ -1106,12 +1106,13 @@ blockquote {
   background: black;
 }
 .fancytitle .bg2 {
-  padding:0.5rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
   transform: rotate(3deg);
   background: #ff8800;
 }
 .fancytitle .bg2 h2 { 
-  font-size: 115%;
+  font-size: 140%;
   padding: 0.3rem !important;
   margin:0;
   color: white;
