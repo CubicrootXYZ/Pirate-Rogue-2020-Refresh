@@ -1021,7 +1021,7 @@ blockquote {
   min-width: min(15rem, 100vw);
   width: 31%;
 }
-@media screen and (max-width: 15rem) {  /* phones*/
+@media screen and (max-width: 20rem) {  /* phones*/
   .topicrect {
     min-width: 100%;
   }
