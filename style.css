@@ -1017,7 +1017,7 @@ blockquote {
   border-radius: 0.5rem; 
   overflow:hidden;
   cursor:pointer;
-  min-width: min(15rem, 100vw);
+  min-width: min(50rem, 100vw);
   width: 31%;
 }
 .topicrect-title {
