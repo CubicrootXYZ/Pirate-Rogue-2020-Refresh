@@ -36,6 +36,6 @@ function fancytitle_func($atts) {
     extract(shortcode_atts(array(
         'title' => 'Use title=Title',
        ), $atts));
-    return "<div class='fancytitle'><div class='bg1'><div class='bg2'>".$title."</div></div></div>";
+    return "<div class='fancytitle'><div class='bg1'><div class='bg2'><h2>".$title."</h2></div></div></div>";
 }
 ?>
