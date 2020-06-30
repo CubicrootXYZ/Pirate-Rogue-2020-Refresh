@@ -4,6 +4,7 @@
 add_shortcode('topicrect', 'topicrect_func');
 add_shortcode('flexrow', 'flexrow_func');
 add_shortcode('hpic', 'hpic_func');
+add_shortcode('fancytitle', 'fancytitle_func')
 
 function topicrect_func($atts, $content = null) {
     // set up default parameters
@@ -29,5 +30,12 @@ function hpic_func($atts) {
         'title' => ''
        ), $atts));
     return "<div class='custom-hpic' style='background-image: url(\"".$image."\")'><div class='custom-hpic-inner' ><h2>".$title."</h2></div></div>";
+}
+function fancytitle_func($atts, $content = null) {
+    // set up default parameters
+    extract(shortcode_atts(array(
+        'title' => 'Use title=Title',
+       ), $atts));
+    return "<div class='fancytitle'><div class='bg1'><div class='bg2'>".$title."</div></div></div>";
 }
 ?>
