@@ -844,7 +844,7 @@ blockquote {
   float: none !important;
 }
 .blog-wrap article .entry-title {
-  border-bottom: 4px solid #ff8800;
+  border-bottom: 2px solid #ff8800;
 }
 .entry-cats a {
   padding: 0.2rem;
@@ -947,7 +947,7 @@ blockquote {
   border: none;
   font-size: 120% !important;
   line-height: 140% !important;
-  border-bottom: 4px solid #ff8800;
+  border-bottom: 2px solid #ff8800;
 }
 #page-section-one .section-one-column-two .entry-thumbnail {
   -webkit-filter: grayscale(100%); 
@@ -996,6 +996,9 @@ blockquote {
 }
 #front-section-twocolumn article .entry-header {
   padding-bottom: 0;
+}
+#page-section-one .post .entry-header, #page-section-one .post .entry-summary, #page-section-two .post .entry-header, #page-section-two .post .entry-summary {
+  padding: 1rem;
 }
 
 /* Topic rectangle */
@@ -1103,7 +1106,8 @@ blockquote {
   width: max-content;
 }
 .fancytitle .bg1 {
-  padding:0.2rem;
+  padding-left:0.2rem;
+  padding-right:0.2rem;
   transform: rotate(-1.5deg);
   background: black;
 }
