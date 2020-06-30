@@ -647,6 +647,10 @@ a.standard-btn.secondcolor-btn {
   max-width: 50% !important;
 }
 
+blockquote {
+  padding: 1rem;
+}
+
 /* PAges */
 .page-template-default .entry-title {
   font-size: 2vw !important;
