@@ -18,6 +18,7 @@ Child-Theme for Pirate-Rogue (https://github.com/Piratenpartei/Pirate-Rogue). Re
 * `blogroll` und `section_featured_top` angepasst
 * `[flexrow]Content[/flexrow]` eingeführt, damit werden alle Elemente in einer Flexrow angezeigt
 * `[topicrect url="" title="" image=""]Kurzer Text[/topicrect]` eingeführt.
+* `[fancytitle title="Title"]` eingeführt
 
 ## Shortcuts 
 
@@ -58,6 +59,14 @@ This shortcode provides a flexbox container.
 `[flexrow]content[/flexrow]`
 
 Sets the `content` into a flexbox with wrap, centered and row direction.
+
+### Fancy Title 
+
+Title in the pirate style.
+
+`[fancytitle title=""]`
+
+`title`: title to display
 
 ### Heading with Image
 
