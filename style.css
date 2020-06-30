@@ -999,6 +999,7 @@ blockquote {
 }
 #page-section-one .post .entry-header, #page-section-one .post .entry-summary, #page-section-two .post .entry-header, #page-section-two .post .entry-summary {
   padding: 1rem;
+  padding-top: 0rem;
 }
 
 /* Topic rectangle */
